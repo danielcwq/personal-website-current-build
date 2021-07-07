@@ -10,7 +10,7 @@ export default function Header() {
     <div
       className="min-h-screen flex items-center justify-center"
       style={{
-        background: "#091c29",
+        background: "#eee",
       }}
     >
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
@@ -21,7 +21,7 @@ export default function Header() {
             placeholderSrc={process.env.PUBLIC_URL + "/logo512.png"}
           />
         </div>
-        <div className="text-white font-dosis text-center md:text-left">
+        <div className="text-black font-dosis text-center md:text-left">
           <h2 className="text-3xl md:text-5xl font-bold">
             {content.header.text[0]}
             <br />

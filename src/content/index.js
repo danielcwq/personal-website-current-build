@@ -47,6 +47,6 @@ export default {
   contact: {
     title: 'Contact',
     header: 'Ping Me!',
-    desc2: `Feel free to connect with me either through email or at my LinkedIn right here 😁`
+    desc2: `Don't hesitate to connect with me via any of the platforms here! 😁`
   }
 };

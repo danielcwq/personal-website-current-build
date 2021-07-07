@@ -25,8 +25,10 @@ export default function Contact() {
                 <p className = 'text-white text-2xl pb-12'>
                     {content.contact.desc2}
                 </p>
-                <a href = 'https://www.linkedin.com/in/daniel-ching-87455b204/' class = 'button' className = 'text-black text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8'>LinkedIn!</a>
-                <a href = 'mailto:dancwq2@gmail.com?Subject=Let%27s%20Chat%21&Body=%3CShare%20a%20little%20more%20of%20yourself%20here%21%20%3A%29%3E' class = 'button' className = 'text-black text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500'>Gmail!</a>
+                <a href = 'https://www.linkedin.com/in/daniel-ching-87455b204/' class = 'button' className = 'text-black text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8'>LinkedIn</a>
+                <a href = 'mailto:dancwq2@gmail.com?Subject=Let%27s%20Chat%21&Body=%3CShare%20a%20little%20more%20of%20yourself%20here%21%20%3A%29%3E' class = 'button' className = 'text-black text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500'>Gmail</a>
+                <a href = 'https://twitter.com/danielchingwq' class = 'button' className = 'text-black text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8 ml-6'> Twitter</a>
+                <a href = 'https://dancwq2.medium.com/about' class = 'button' className = 'text-black text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8'> Medium </a>
            </div>
 
       </div>
