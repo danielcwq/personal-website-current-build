@@ -3,3 +3,6 @@
   to = "/index.html"
   status = 200
 
+[build]	
+    command = "yarn build"
+    build = "build"
