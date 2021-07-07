@@ -6,3 +6,7 @@
 [build]
   command = "yarn build"
   publish = "out"
+
+...
+  command = "CI= npm run build"
+...
