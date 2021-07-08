@@ -1,6 +1,6 @@
 export default {
   nav: {
-    logo: 'DC',
+    logo: 'Daniel Ching',
     contactText: 'Contact Me'
   },
   header: {
