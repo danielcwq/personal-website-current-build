@@ -2,7 +2,7 @@ export default {
   nav: {
     logo: 'Daniel Ching',
     contactText: 'Contact Me',
-    sportsText: 'My Passions'
+    blogText: 'My Blog'
   },
   header: {
     img:

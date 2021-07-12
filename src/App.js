@@ -2,16 +2,26 @@ import React from 'react';
 import Navigation from './components/Navigation'
 import Header from './components/Header'
 import Stack from './components/Stack'
-import Contact from './components/contact'
+import Home from './components/home'
+import Contactme from './components/contact-me'
+import Blog from './components/blog'
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <Navigation />
-      <Header />
-      <Stack />
-      <Contact />
-    </div>
+    <Router>
+      <div>
+        <Navigation />
+        <Switch>
+          <Route path ='/blog' exact component = {Blog}/>
+          <Route path ='/' exact component = {Home}/>
+          <Route path ='/stack' exact component = {Stack}/>
+          <Route path = '/contact' exact component = {Contactme}/>
+        </Switch>
+      </div>
+    </Router>
+    
   );
 }
 
