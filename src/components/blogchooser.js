@@ -11,42 +11,42 @@ function blogChoice(){
         <div className = 'flex justify-center'>
             <h1 className = 'text-2xl font-extrabold pt-24 pl-10'> Revision Techniques - How to Ace Your Exams </h1>
         </div>
-        <h2 className = 'text-lg py-6 px-40'> I’m a 17 year old high school student in Singapore, notorious for the emphasis placed on grades and academic success. This article discusses the ways to optimise your revision progress when you have set aside a period of time to revise. 
+        <h2 className = 'text-lg md:py-6 md:px-40'> I’m a 17 year old high school student in Singapore, notorious for the emphasis placed on grades and academic success. This article discusses the ways to optimise your revision progress when you have set aside a period of time to revise. 
         </h2>
-        <h2 className = 'text-lg py-6 px-40'>
+        <h2 className = 'text-lg md:py-6 md:px-40'>
         Living a balanced life while pursuing great academic grades is HARD. Often, students have to choose two of the following: sleep, a vibrant social life, and good grades. What I’m offering today is a way to optimise your revision techniques to: 
         </h2>
-        <ul className = 'list-inside list-disc text-lg px-40'>
+        <ul className = 'list-inside list-disc text-lg md:px-40'>
             <li>Prevent last minute cramming</li>
             <li>Free up more time to pursue goals that you really care about </li>
             <li>Boost your confidence and mastery level before the exams</li>
         </ul>
 
-        <h2 className = 'text-lg py-6 px-40'>
+        <h2 className = 'text-lg md:py-6 md:px-40'>
         I believe that there are two key components to a successful revision schedule, which has been tried and tested; and proven to work. 
         </h2>
 
-        <h1 className = 'text-2xl font-bold py-1 px-40'>
+        <h1 className = 'text-2xl font-bold py-1 md:px-40'>
         First, capture. 
         </h1>
-        <h2 className = 'text-lg pb-6 px-40'> 
+        <h2 className = 'text-lg md:pb-6 md:px-40'> 
         You need a capture system that allows you to constantly review the revision material at hand. I’m a firm believer in the concept of spaced repetition, which is repeating the review process for hardest material the most frequently, while spreading out the review process over a period of time. 
 
         </h2>
-        <h1 className = 'text-xl font-semibold py-1 px-40'>
+        <h1 className = 'text-xl font-semibold md:py-1 md:px-40'>
             Why this method? 
         </h1>
-        <h2 className = 'text-lg pb-6 px-40'> 
+        <h2 className = 'text-lg md:pb-6 md:px-40'> 
         This method works, because it forces reviewed content to be brought up consistently, therefore allowing whatever content that is being reviewed to be stored in long-term memory. 
 An example would be starting review two to three months before a major examination, from minute amounts. The key to this is consistency, and having literally no days off. </h2>
         <LazyLoadImage
-        className = 'px-40'
+        className = 'md:px-40'
         src = {content.blog1.img}/>
         <div className = 'flex justify-center'>
-            <h3 className = 'py-1'> Anki Consistently. </h3>
+            <h3 className = 'md:py-1'> Anki Consistently. </h3>
         </div>
         
-        <h2 className = 'text-lg py-6 px-40'> 
+        <h2 className = 'text-lg md:py-6 md:px-40'> 
             Student athletes should be familiar with this - even during periods of rest and rejuvenation, there should still be minimum physical activity done, which counts as ‘easy days’. The same concept should be applied to spaced repetition - do it everyday but with some days more than others. 
         </h2>
 
