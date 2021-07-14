@@ -49,5 +49,9 @@ export default {
     title: 'Contact',
     header: 'Ping Me!',
     desc2: `Don't hesitate to connect with me via any of the platforms here! 😁`
+  },
+  blog1:{
+    title: 'Revision Techniques - How to Ace Your Exams',
+    img: 'https://miro.medium.com/max/1400/0*KFnBavGp02JE5LJJ',
   }
 };
