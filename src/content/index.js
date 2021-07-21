@@ -53,5 +53,8 @@ export default {
   blog1:{
     title: 'Revision Techniques - How to Ace Your Exams',
     img: 'https://miro.medium.com/max/1400/0*KFnBavGp02JE5LJJ',
+  },
+  blog2:{
+    title: 'How To Time Block and Do Deep Work Effectively'
   }
 };

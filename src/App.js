@@ -6,6 +6,7 @@ import Home from './components/home'
 import Contactme from './components/contact-me'
 import Blog from './components/blog'
 import blogChoice from './components/blogchooser';
+import LivingDeep from './components/livingdeep';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -20,6 +21,7 @@ function App() {
           <Route path ='/stack' exact component = {Stack}/>
           <Route path = '/contact' exact component = {Contactme}/>
           <Route path='/blog/revision-techniques' exact component={blogChoice}/>
+          <Route path = '/blog/living-the-deep-life' exact component = {LivingDeep}/>
         </Switch>
       </div>
     </Router>

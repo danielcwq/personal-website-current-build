@@ -14,13 +14,13 @@ export default function Navigation(){
                     {content.nav.logo}
                     </Link>
 
-                    <div className = 'ml-auto mr-10 border-4 rounded-full border-white-200 p-2 group hover:shadow-lg hover:border-gray-500'>
+                    <div className = 'ml-auto mr-10 border-4 rounded-full border-gray-200 p-2 group hover:shadow-lg hover:border-gray-500'>
                         <Link to = "/blog" className ='text-xl text-black'>
                             {content.nav.blogText}
                         </Link>
                         
                     </div>
-                    <div className = 'mr-10 border-4 rounded-full border-white-200 p-2 group hover:shadow-lg hover:border-gray-500'>
+                    <div className = 'mr-10 border-4 rounded-full border-gray-200 p-2 group hover:shadow-lg hover:border-gray-500'>
                             <Link 
                             className = 'text-black text-xl'
                             to = "/contact"
