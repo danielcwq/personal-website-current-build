@@ -56,5 +56,8 @@ export default {
   },
   blog2:{
     title: 'How To Time Block and Do Deep Work Effectively'
+  },
+  arrow:{
+    picture: '>'
   }
 };

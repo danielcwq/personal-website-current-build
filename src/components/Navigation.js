@@ -10,7 +10,7 @@ export default function Navigation(){
                 <div className = 'flex items-center fixed z-10 w-full mx-auto bg-gray-200'>
                     <Link 
                     to = '/'
-                    className = 'text-2xl md:text-3xl font-bold text-black items-left mx-auto md:ml-10 ml-3'>
+                    className = 'text-2xl md:text-3xl font-bold text-black mx-auto md:ml-10 ml-3'>
                     {content.nav.logo}
                     </Link>
 
