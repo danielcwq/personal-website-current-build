@@ -14,7 +14,7 @@ function Resume(){
         <div>
             <Navigation/>
             <div className = 'flex justify-center'>
-                <h1 className = 'text-4xl pt-24 font-bold pl-10 text-justify'> My Resume </h1>
+                <h1 className = 'text-4xl py-20 font-bold pl-10 text-justify'> My Resume </h1>
                 
             </div>
             <div className = 'flex justify-center'>
