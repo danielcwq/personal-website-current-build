@@ -60,5 +60,8 @@ export default {
   },
   arrow:{
     picture: '>'
+  },
+  resume:{
+    img: 'https://i.ibb.co/Q9gXZQr/Screenshot-2021-07-30-at-4-41-42-PM.png'
   }
 };
