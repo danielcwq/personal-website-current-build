@@ -58,6 +58,10 @@ export default {
   blog2:{
     title: 'How To Time Block and Do Deep Work Effectively'
   },
+  blog3:{
+    title: "Perspectives - What I've learnt from the Filipino Education System",
+    img: "https://miro.medium.com/max/1400/1*WZNlfSy2bOG3xbOvbob7Qg.png"
+  },
   arrow:{
     picture: '>'
   },

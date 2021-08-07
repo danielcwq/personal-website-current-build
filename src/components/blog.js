@@ -19,6 +19,15 @@ function Blog(){
                     </div>    
                 </div>  
             </Link>
+            <Link className = 'flex justify-center' to ='/blog/perspectives'>
+                <div className = 'flex justify-center max-w-xl md:max-w-3xl rounded-xl mt-10 md:mt-12 shadow-md p-12 bg-gray-200 hover:bg-gray-400'>
+                    {content.blog3.title}
+                    <div className = 'ml-10 md:ml-56'>
+                        {content.arrow.picture}
+                    </div>
+                </div>
+
+            </Link>
            
         </div>
     )
