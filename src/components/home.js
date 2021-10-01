@@ -4,15 +4,16 @@ import Header from './Header'
 import Stack from './Stack'
 import Contact from './contact'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import MetaTags from 'react-meta-tags';
 
 export default function Home() {
     return(
         <div>
-            <Head>
-                <meta property="og:title" content="Daniel Ching" />
-                <meta property="og:description" content="RISE Finalist | Paragon Fellow | TKS Innovator" />
-                <meta property="og:url" content="danielching.netlify.app" />
-            </Head>
+            <MetaTags>
+                <meta id= "og-title" content = "Daniel Ching" />
+                <meta id="og-description" content=" RISE Finalist | TKS Innovator | Paragon Fellow " />
+                <meta id="og-url" content="danielching.netlify.app" />
+            </MetaTags>
             <Navigation />
             <Header />
             <Stack />
