@@ -19,16 +19,19 @@ export default function Contact() {
         className="w-full md:w-4/5 md:rounded-xl shadow-2xl flex md:flex-row flex-col-reverse justify-around items-center"
       >
            <div className="font-dosis w-4/5 md:w-2/5 mt-5">
-                <h1 className = 'text-white text-5xl font-bold'>
+                <h1 className = 'text-white text-center text-5xl font-bold mb-5'>
                     {content.contact.header}
                 </h1>
-                <p className = 'text-white text-2xl pb-12'>
-                    {content.contact.desc2}
-                </p>
-                <a href = 'https://www.linkedin.com/in/daniel-ching-87455b204/' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8'>LinkedIn</a>
-                <a href = 'mailto:dancwq2@gmail.com?Subject=Let%27s%20Chat%21&Body=%3CShare%20a%20little%20more%20of%20yourself%20here%21%20%3A%29%3E' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500'>Gmail</a>
-                <a href = 'https://twitter.com/danielchingwq' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8 ml-6'> Twitter</a>
-                <a href = 'https://dancwq2.medium.com/about' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8'> Medium </a>
+                <div className = "flex flex-wrap">
+                  <a href = 'https://www.linkedin.com/in/daniel-ching-87455b204/' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8' target = "_blank">LinkedIn</a>
+                  <a href = 'mailto:dancwq2@gmail.com?Subject=Let%27s%20Chat%21&Body=%3CShare%20a%20little%20more%20of%20yourself%20here%21%20%3A%29%3E' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500' target = "_blank">Gmail</a>
+                  <a href = 'https://twitter.com/danielchingwq' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8 ml-6' target = "_blank"> Twitter</a>
+                  <a href = 'https://dancwq2.medium.com/about' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8' target = "_blank"> Medium </a>
+                  <a href = 'https://danielching.substack.com/p/coming-soon?r=tmemp&utm_campaign=post&utm_medium=web&utm_source=' class = 'button' className = "text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mt-8" target = "_blank"> Substack Subscription</a>
+     
+                  
+                </div>
+                
            </div>
 
       </div>

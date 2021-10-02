@@ -12,7 +12,7 @@ export default function Stack() {
           background: '#eee',
       }}
     >
-      <h1 className="text-5xl font-bold">Things I'm Interested In</h1>
+      <h1 className="text-5xl font-bold">About</h1>
       <div className="flex flex-wrap justify-center mt-10 ">
         {content.stack.tech.map((tech, index) => {
           return (
@@ -26,8 +26,11 @@ export default function Stack() {
           );
         })}
       </div>
-      <p className="w-11/12 md:max-w-xl mx-auto text-xl text-center mt-10">
+      <p className="w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-10">
         {content.stack.desc}
+      </p>
+      <p className = "w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-2">
+        {content.stack.desc3}
       </p>
     </div>
   );

@@ -10,7 +10,7 @@ export default function Header() {
     <div
       className="min-h-screen flex items-center justify-center"
       style={{
-        background: "#eee",
+        background: "#ffffff",
       }}
     >
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
@@ -25,10 +25,9 @@ export default function Header() {
           <h2 className="text-3xl md:text-5xl font-bold">
             {content.header.text[0]}
             <br />
-            {content.header.text[1]}
           </h2>
           <h1 className="font-bond text-2xl text-gray-500">
-            {content.header.text[2]}{" "}
+            {content.header.text[1]}{" "}
             <Typical
               steps={content.header.typical}
               loop={Infinity}
