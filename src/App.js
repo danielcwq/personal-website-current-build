@@ -9,6 +9,7 @@ import blogChoice from './components/blogchooser';
 import LivingDeep from './components/livingdeep';
 import Resume from './components/resume';
 import Perspectives from './components/perspectives';
+import Running from './components/running'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/blog/revision-techniques' exact component={blogChoice}/>
           <Route path = '/blog/living-the-deep-life' exact component = {LivingDeep}/>
           <Route path = '/blog/perspectives' exact component = {Perspectives}/>
+          <Route path = '/running' exact component = {Running}/>
         </Switch>
       </div>
     </Router>

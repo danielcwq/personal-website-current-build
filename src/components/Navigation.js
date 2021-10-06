@@ -24,7 +24,7 @@ export default function Navigation(){
                             {content.nav.resumeText}
                         </Link>
                     </div>
-                    <div className = 'ml-4 border-2 md:border-4 md:mr-10 rounded-full border-black-300 p-2 group hover:shadow-lg hover:border-gray-500'>
+                    <div className = 'ml-4 border-1 md:border-2 md:mr-10 rounded-full border-black-300 p-2 group hover:shadow-lg hover:border-gray-500'>
                             <Link 
                             className = 'text-lg font-dosis text-black md:text-xl'
                             to = "/contact"

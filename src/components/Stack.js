@@ -2,6 +2,7 @@ import React from "react";
 import content from "../content";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import {Link} from 'react-router-dom'
 
 export default function Stack() {
   return (
@@ -29,9 +30,15 @@ export default function Stack() {
       <p className="w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-10">
         {content.stack.desc}
       </p>
-      <p className = "w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-2">
+      <p className = "w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-4">
         {content.stack.desc3}
       </p>
+
+      <div className = "mt-4 text-3xl font-bold text-center text-justify">
+          <Link to = "/running">
+            {content.stack.desc4}
+          </Link>
+      </div>
     </div>
   );
 }

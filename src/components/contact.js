@@ -22,12 +22,12 @@ export default function Contact() {
                 <h1 className = 'text-white text-center text-5xl font-bold mb-5'>
                     {content.contact.header}
                 </h1>
-                <div className = "flex flex-wrap">
-                  <a href = 'https://www.linkedin.com/in/daniel-ching-87455b204/' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8' target = "_blank">LinkedIn</a>
+                <div className = "flex flex-wrap flex-shrink justify-evenly md:justify-between">
+                  <a href = 'https://www.linkedin.com/in/daniel-ching-87455b204/' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500' target = "_blank">LinkedIn</a>
                   <a href = 'mailto:dancwq2@gmail.com?Subject=Let%27s%20Chat%21&Body=%3CShare%20a%20little%20more%20of%20yourself%20here%21%20%3A%29%3E' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500' target = "_blank">Gmail</a>
-                  <a href = 'https://twitter.com/danielchingwq' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8 ml-6' target = "_blank"> Twitter</a>
-                  <a href = 'https://dancwq2.medium.com/about' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mr-8' target = "_blank"> Medium </a>
-                  <a href = 'https://danielching.substack.com/p/coming-soon?r=tmemp&utm_campaign=post&utm_medium=web&utm_source=' class = 'button' className = "text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 mt-8" target = "_blank"> Substack Subscription</a>
+                  <a href = 'https://twitter.com/danielchingwq' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500' target = "_blank"> Twitter</a>
+                  <a href = 'https://dancwq2.medium.com/about' class = 'button' className = 'text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500' target = "_blank"> Medium </a>
+                  <a href = 'https://danielching.substack.com/p/coming-soon?r=tmemp&utm_campaign=post&utm_medium=web&utm_source=' class = 'button' className = "text-black md:text-2xl bg-gray-500 hover:bg-gray-700 border-8 border-gray-500 md:mt-8" target = "_blank"> Substack Subscription</a>
      
                   
                 </div>

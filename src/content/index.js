@@ -43,8 +43,8 @@ export default {
       },
     ],
     desc: `Hello! Thanks for dropping by my site. I'm a high school junior who is passionate about student leadership and education development. In my free time, I strive to improve my hard skills in the above stack.`,
-    desc3: `I'm also an avid amateur distance runner and am someone who seeks to push my own physical and mental limits. Being a student athlete, excelling in school, and pursuing side hustles simulatenously is not an easy feat. Contact me to find out more!`
-    
+    desc3: `I'm also an avid amateur distance runner and am someone who seeks to push my own physical and mental limits. Being a student athlete, excelling in school, and pursuing side hustles simulatenously is not an easy feat.`,
+    desc4: "Want to know about my thoughts on running?"
   },
 
   contact: {
