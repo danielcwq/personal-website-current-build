@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navigation from './components/Navigation'
 import Header from './components/Header'
 import Stack from './components/Stack'
@@ -9,10 +9,21 @@ import blogChoice from './components/blogchooser';
 import LivingDeep from './components/livingdeep';
 import Resume from './components/resume';
 import Perspectives from './components/perspectives';
-import Running from './components/running'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Running from './components/running';
+import DeepLife from './components/deeplife'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import ReactGa from 'react-ga';
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize('UA-210213904-1');
+    // To Report Page View 
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }, [])
+
+  useEffect(() => {
+   console.log(window.location.pathname)
+  })
   return (
     <Router>
       <div>
@@ -27,6 +38,7 @@ function App() {
           <Route path = '/blog/living-the-deep-life' exact component = {LivingDeep}/>
           <Route path = '/blog/perspectives' exact component = {Perspectives}/>
           <Route path = '/running' exact component = {Running}/>
+          <Route path = '/blog/the-deep-life' exact component = {DeepLife}/>
         </Switch>
       </div>
     </Router>

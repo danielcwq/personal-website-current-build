@@ -34,7 +34,7 @@ export default function Stack() {
         {content.stack.desc3}
       </p>
 
-      <div className = "mt-4 text-3xl font-bold text-center text-justify">
+      <div className = "mt-4 text-3xl font-bold text-center text-justify w-11/12 md:max-w-xl">
           <Link to = "/running">
             {content.stack.desc4}
           </Link>
