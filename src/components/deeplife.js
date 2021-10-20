@@ -10,8 +10,8 @@ function DeepLife(){
         <div>
             <Navigation/>
             
-            <div className = 'flex flex-row leading-relaxed'>
-                <div className = 'md:px-32'></div>
+            <div className = 'flex flex-row leading-relaxed justify-center'>
+                <div className = 'sm:px-2 md:px-12 lg:px-32'></div>
                 <div className = 'leading-relaxed'>
                     <div className = 'flex justify-center'>
                         <h1 className = 'text-2xl font-extrabold pt-24 py-10 px-4 md:px-4'> Living the Deep Life as a Student in Singapore </h1>
@@ -108,10 +108,15 @@ function DeepLife(){
                     <div className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
                     If you liked this post, feel free to subscribe to my fortnightly (I hope) newsletters where I share tips about my experiences as a student who likes to think past the constraints of school. I would love to answer any queries that you might have about living deeply as a student :). 
                     </div>
+                    <Link className = 'flex justify-center' to ='/contact'>
+                        <div className = "flex justify-center font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400">
+                        Contact me here. 
+                        </div>
+                    </Link>
                 </div>
-                <div className = 'md:px-32'></div>
+                <div className = 'sm:px-2 md:px-12 lg:px-32'></div>
             </div>
-            <Contact />
+           
             
         </div>
     )

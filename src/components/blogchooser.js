@@ -2,13 +2,14 @@ import React from 'react';
 import Navigation from './Navigation';
 import content from '../content';
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import {Link} from 'react-router-dom';
 
 function blogChoice(){
     return (
     <div>
         <Navigation />
         <div className = 'flex leading-relaxed'>
-            <div className = 'md:px-32'></div>
+            <div className = 'sm:px-2 md:px-12 lg:px-32'></div>
             <div>
             <div className = 'flex justify-center'>
                 <h1 className = 'text-2xl font-extrabold pt-24 py-10 px-4 md:px-4'> Revision Techniques - How to Ace Your Exams </h1>
@@ -103,8 +104,14 @@ function blogChoice(){
                 <h2 className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
                 Cheers! All the best for your examinations! 🤩
                 </h2>
+                <Link className = 'flex justify-center' to ='/contact'>
+                        <div className = "flex justify-center font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400">
+                        Contact me here. 
+                        </div>
+                </Link>
                 </div>
-            <div className = 'md:px-32'></div>
+                
+            <div className = 'sm:px-2 md:px-12 lg:px-32'></div>
 </div>
         
 
