@@ -34,7 +34,7 @@ export default function Stack() {
         {content.stack.desc3}
       </p>
 
-      <div className = "mt-4 text-3xl font-bold text-center text-justify w-11/12 md:max-w-xl">
+      <div className = "mt-4 text-3xl font-bold text-center text-justify w-11/12 md:max-w-xl group hover:shadow-lg hover:border-gray-500 rounded-full md:p-2">
           <Link to = "/running">
             {content.stack.desc4}
           </Link>

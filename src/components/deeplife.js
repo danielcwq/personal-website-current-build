@@ -2,7 +2,8 @@ import React from 'react';
 import Navigation from './Navigation';
 import content from '../content';
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Contact from './contact'
 
 function DeepLife(){
     return(
@@ -10,19 +11,19 @@ function DeepLife(){
             <Navigation/>
             
             <div className = 'flex flex-row leading-relaxed'>
-                <div className = 'lg:px-20'></div>
-                <div>
+                <div className = 'md:px-32'></div>
+                <div className = 'leading-relaxed'>
                     <div className = 'flex justify-center'>
-                    <h1 className = 'text-2xl font-extrabold pt-24 py-10 px-4 md:px-4'> Living the Deep Life as a Student in Singapore </h1>
+                        <h1 className = 'text-2xl font-extrabold pt-24 py-10 px-4 md:px-4'> Living the Deep Life as a Student in Singapore </h1>
                     </div>
-                    <p className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>Living the conventional life as a student who goes to school, studies all day, and participates actively in extra-curricular activities is boring. There’s so much more to accelerating growth as a youth than attending preparatory classes or excelling in one’s academic work. Living a life with time that is intentionally spent isn’t just for adults - it’s for teenagers, too. My goal is to help you live such a life.</p>
+                    <p className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>Living the conventional life as a student who goes to school, studies all day, and participates actively in extra-curricular activities is boring. There’s so much more to accelerating growth as a youth than attending preparatory classes or excelling in one’s academic work. Living a life with time that is intentionally spent isn’t just for adults - it’s for teenagers, too. <b className = 'text-bold'>My goal is to help you live such a life.</b></p>
                     <h3 className = "text-3xl font-bold py-1 md:px-40">
                         What will be covered in this blog 
                     </h3>
                     <ol className = 'list-inside list-decimal text-xl py-3 px-4 text-justify md:py-6 md:px-40'>
                         <li>Explaining the concept of a deep life</li>
                         <li>4 concrete action items to make changes </li>
-                        <li>Brief Updates</li>
+                        <li> Brief Updates</li>
                     </ol>
                     <p className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
                         This blog is long, but it’ll be great if you could stick with it right through the end.
@@ -43,7 +44,7 @@ function DeepLife(){
                         src = 'https://cdn-icons.flaticon.com/png/512/525/premium/525872.png?token=exp=1634250628~hmac=d8e9f0d24763aa6443ae6bab904195ce'/>
                     </div>
                     <div className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
-                        I first came across the concept of living the deep life from renowned author Cal Newport. Living the deep life basically means spending your time intentionally on things that matter, and avoid wasting too much time on things that do not. Since then, I have made several radical changes in my life to shift my attention onto specific areas of my life that I care about. In many ways, taking a step back from whatever you’re doing in the moment and analysing whether you’re spending your limited time intentionally on the things that you genuinely matter is the first step in exploring the world around you. 
+                        I first came across the concept of living the deep life from renowned author Cal Newport. <b className = 'text-bold'> Living the deep life basically means spending your time intentionally on things that matter, and avoid wasting too much time on things that do not. </b> Since then, I have made several radical changes in my life to shift my attention onto specific areas of my life that I care about. In many ways, taking a step back from whatever you’re doing in the moment and analysing whether you’re spending your limited time intentionally on the things that you genuinely matter is the first step in exploring the world around you. 
                     </div>
                     <div className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40 font-bold'>
                     Action 1: Take out a piece of writing paper and identify key areas of your life that you genuinely care about. For example, family, grades, running (physical health), and self-improvement. Beside each label, write down your quarterly (3 months), monthly and weekly goals that you want to achieve. Position this paper in a place where it is prominent, to remind yourself that you have committed to these goals and will work continuously towards it. 
@@ -86,14 +87,14 @@ function DeepLife(){
                             ----------------------------------------------------------
                     </div>
                     <div className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
-                    Rest and rejuvenation is key. Living a deep life doesn’t mean that it has to be all work and no play. Rather, it is the converse. By spending times on things that you genuinely care about (yes, video games could be in the areas listed in #action-1), and radically eradicating other areas of your life through which unnecessary time is spent, you would be able to enjoy yourself fully, and to a greater extent than before. In their book Peak Performance, Brad Stulberg and Steve Magness explore the idea that elite performance is unsustainable without periodised breaks and relaxation. If you want to be living your best life in the most fulfilling way, the key to doing this is to include scheduled relaxation times to prevent burnout. 
+                    <b className = 'text-bold'>Rest and rejuvenation is key. </b> Living a deep life doesn’t mean that it has to be all work and no play. Rather, it is the converse. By spending times on things that you genuinely care about (yes, video games could be in the areas listed in #action-1), and radically eradicating other areas of your life through which unnecessary time is spent, you would be able to enjoy yourself fully, and to a greater extent than before. In their book Peak Performance, Brad Stulberg and Steve Magness explore the idea that elite performance is unsustainable without periodised breaks and relaxation. If you want to be living your best life in the most fulfilling way, the key to doing this is to include scheduled relaxation times to prevent burnout. 
                     </div>
 
                     <div className = 'text-lg py-3 px-4 text-justify font-bold md:py-6 md:px-40'>
                     Action 4: What are some things that you love doing? Set aside time to pursue these activities. By living in denial and reacting to urges of taking unscheduled breaks, the quality of entertainment would decrease drastically. 
                     </div>
                     <div className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
-                    Metacognition is the secret to growth and 10x acceleration. Through critically examining all aspects of your life and weeding out the ones that don’t matter as much, and finding a set of practices that work the best for you, you would find life as a student much more enjoyable and manageable. Eventually, you would discover and establish a set routine in which you pursue areas of your life in a meaningful manner. 
+                    <b className = 'underline'>Metacognition is the secret to growth and 10x acceleration. </b>Through critically examining all aspects of your life and weeding out the ones that don’t matter as much, and finding a set of practices that work the best for you, you would find life as a student much more enjoyable and manageable. Eventually, you would discover and establish a set routine in which you pursue areas of your life in a meaningful manner. 
                     </div>
                     <div className = 'text-lg py-3 px-4 text-center md:py-6 md:px-40'>
                             ----------------------------------------------------------
@@ -108,9 +109,9 @@ function DeepLife(){
                     If you liked this post, feel free to subscribe to my fortnightly (I hope) newsletters where I share tips about my experiences as a student who likes to think past the constraints of school. I would love to answer any queries that you might have about living deeply as a student :). 
                     </div>
                 </div>
-                <div className = 'md:px-20'></div>
+                <div className = 'md:px-32'></div>
             </div>
-            
+            <Contact />
             
         </div>
     )

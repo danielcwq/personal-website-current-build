@@ -14,10 +14,11 @@ export default {
     typical: [
       'an aspiring web developer. 🖥',
       2500,
-      'an amateur runner. 🏃‍♂️',
-      2500,
       'an Innovator at TKS.',
       2500,
+      'an amateur runner. 🏃‍♂️',
+      2500,
+      
     ],
     btnText: 'Discover More',
   },
@@ -41,6 +42,7 @@ export default {
         img: process.env.PUBLIC_URL + '/assets/node.png',
         alt: 'node',
       },
+      
     ],
     desc: `Hello! Thanks for dropping by my site. I'm a high school junior who is passionate about student leadership and education development. In my free time, I strive to improve my hard skills in the above stack.`,
     desc3: `I'm also an avid amateur distance runner and am someone who seeks to push my own physical and mental limits. Being a student athlete, excelling in school, and pursuing side hustles simulatenously is not an easy feat.`,
@@ -50,7 +52,11 @@ export default {
   contact: {
     title: 'Contact',
     header: 'Contact',
-    desc2: `Reach out to me here:`
+    desc2: `Reach out to me here:`,
+    linkedinIcon: [
+      {img: process.env.PUBLIC_URL + '/assets/linkedin.png',
+      alt: 'linkedin'},
+    ]
   },
   blog1:{
     title: 'Revision Techniques - How to Ace Your Exams',
@@ -68,5 +74,6 @@ export default {
   },
   resume:{
     img: 'https://i.ibb.co/K6zKLyV/Screenshot-2021-07-30-at-8-59-54-PM.png'
-  }
+  },
+
 };
