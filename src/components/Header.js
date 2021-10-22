@@ -16,7 +16,7 @@ export default function Header() {
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
         <div className="w-2/5">
           <LazyLoadImage
-            src={content.header.img}
+            src='./bitmoji2.png'
             effect="blur"
             placeholderSrc={process.env.PUBLIC_URL + "/logo512.png"}
           />
