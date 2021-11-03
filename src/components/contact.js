@@ -35,10 +35,10 @@ export default function Contact() {
                   <a href = 'https://twitter.com/danielchingwq' class = 'button' className = '' target = "_blank"> 
                     <img src = './twitter.png' alt = 'twitter'/>
                   </a>
-                  <a href = 'https://dancwq2.medium.com/about' class = 'button' className = '' target = "_blank"> 
+                  <a href = 'https://dancwq2.medium.com' class = 'button' className = '' target = "_blank"> 
                     <img src = './medium.png' alt = 'medium'/>
                    </a>
-                  
+                 
                   
                 </div>
                 <div className = 'ml-16 md:text-lg text-sm'>

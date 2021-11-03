@@ -11,7 +11,7 @@ function DeepLife(){
             <Navigation/>
             
             <div className = 'flex flex-row leading-relaxed justify-center'>
-                <div className = 'sm:px-2 md:px-12 lg:px-32'></div>
+                <div className = 'px-6 sm:px-12 md:w-2/5 lg:w-4/5'></div>
                 <div className = 'leading-relaxed'>
                     <div className = 'flex justify-center'>
                         <h1 className = 'text-2xl font-extrabold pt-24 py-10 px-4 md:px-4'> Living the Deep Life as a Student in Singapore </h1>
@@ -114,7 +114,7 @@ function DeepLife(){
                         </div>
                     </Link>
                 </div>
-                <div className = 'sm:px-2 md:px-12 lg:px-32'></div>
+                <div className = 'px-6 sm:px-12 md:w-2/5 lg:w-4/5'></div>
             </div>
            
             

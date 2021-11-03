@@ -21,7 +21,7 @@ function Running() {
                 </h1>
                 
             </div>
-            <div className = "py-20">
+            <div className = "py-20 mx-42">
                 <ImageSlider slides = {SliderData}/>
             </div>
             <div className = 'pb-12'>
@@ -30,7 +30,7 @@ function Running() {
             <div className = "flex justify-center items-center">
 
            
-                <div className = "bg-gray-200 py-12 md:w-4/5 md:rounded-lg shadow-2xl px-12">
+                <div className = "bg-gray-200 py-12 md:w-4/5 md:rounded-lg  px-12">
                     <div className = "w-11/12 md:max-w-xl mx-auto text-xl text-center font-dosis font-extrabold text-justify mt-4 flex items-center justify-around">
                         <h2 className = "text-3xl"> 
                         Personal Bests
@@ -60,7 +60,7 @@ function Running() {
             </div>
             <div className = "py-12"></div>
             
-            <div className = "flex justify-center">
+            <div className = "flex justify-center mb-12">
                 <div className = "bg-gray-200 py-12 md:w-4/5 md:rounded-lg shadow-2xl px-12 ">
             
                     <div className = "flex justify-center pt-20">
@@ -76,7 +76,7 @@ function Running() {
                     </h2>
                     <div className = "text-center font-dosis py-3">
                         <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40">
-                        That’s such a common question that is asked by many teens who are new to the sport of running. Running, and running fast is much more nuanced than you think it actually is. 
+                        That’s such a common question that is asked by many teens who are new to the sport of running. Running, and running fast, is much more nuanced than you think it actually is. 
                         </p>
                         <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40"> 
                         The correct question to ask is - Why do I run?
@@ -84,28 +84,66 @@ function Running() {
                         <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40">
                         For me, I run because I love the sport, and I love the feeling of remaining aerobically fit. There is a special kind of solitude for me to disconnect from my work, from the fast tempo (pun intended) of day to day student life. Keeping myself fit is not just for fitness tests, rather, it has become a way of life. 
                         </p>
+                        <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40">
+                        Well, if you truly want to get faster (especially for 2.4km, for guys in SG), you can refer to a training plan I did up for students here. 👇 Also, if you are looking for some cheat shoes, be sure to check out the list below as well. 
+                        </p>
+                        <div className = 'mt-4'>
+                        <a className = '' href = 'https://docs.google.com/document/d/10j1hxDBaFQIpudho5lKKlwW76UyzMpma_qj5qNQR02U/edit' target = '_blank' className = 'font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400'>
+                            How to get good at 2.4, for students 
+                        </a>
+                        </div>
+                        <div className = 'mt-10'>
+                            <a className = '' href = 'https://docs.google.com/document/d/1Iq_yL2vF2Ax9AOguGEB4v3UASjLqC329E_DI3dfH09k/edit' target = '_blank' className = 'font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400'>
+                                My Running Shoe Recommendations for 2021
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className = 'flex justify-center pt-12'>
-                <hr  className = "w-11/12"style={{
-                        display: 'flex',
-                        color: '#000000',
-                        backgroundColor: '#000000',
-                        height: .5,
-                        borderColor : '#000000'
-                    }}/>
-            </div>
-            <div className>
-                <h2 className = 'w-11/12 md:max-w-xl mx-auto text-2xl text-center font-dosis font-extrabold text-justify mt-4 flex items-center justify-around'>
-                    Running Shoe Rotation
-                </h2>
-                <div className = "flex justify-center">
-                    <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40 text-center">
-                        Stay tuned to find out more! 
-                    </p>
-                </div>
+            
+            <div style = {{background: "#091C29", minHeight: "50vh"}} className = 'w-11/12 mx-auto md:rounded-lg'>
                 
+                <div className = "flex justify-center">
+                    <h2 className = 'w-4/5 md:max-w-xl mx-auto text-3xl text-center font-dosis font-extrabold text-justify mt-4 flex items-center justify-around text-white'>
+                        My Running Shoe Matrix 👟
+                    </h2>
+                    
+                </div>
+                <div className = "flex justify-center mt-10">
+                    <p className = 'font-dosis text-white text-2xl mr-4 mt-2'> Follow me on Strava: </p>
+                <a href = 'https://www.strava.com/athletes/49373732' class = 'button' target = "_blank">
+                    <img src = './strava.png' alt = 'strava'/>
+                  </a>
+                </div>
+                <div className = "flex justify-center">
+                    <div 
+                    className = 'grid grid-col-1 md:grid-cols-2 w-4/5 md:w-4/5 md:rounded-xl shadow-2xl font-dosis'>
+                        <div className = 'm-8 p-12 md:rounded-xl' style = {{background: "#ffffff"}}>
+                            <h1 className = 'flex justify-center text-2xl' > Race Day </h1>
+                            <img src='./vaporfly.jpeg'/>
+                            <h2 className = 'flex justify-center text-xl italic'> Nike Vaporfly Next% </h2> 
+                            <p className = 'flex justify-center mt-4'> ZoomX foam with full-length carbon-fibre plate. Nike's top of the line 2019 racer. Certainly worth your buck!</p>
+                        </div>
+                        <div className = 'm-8 p-12 md:rounded-xl' style = {{background: "#ffffff"}}>
+                            <h1 className = 'flex justify-center text-2xl' > Tempo/ Threshold Days </h1>
+                            <img src='./saucony.jpeg'/>
+                            <h2 className = 'flex justify-center text-xl italic'> Saucony Endorphin Speed </h2> 
+                            <p className = 'flex justify-center mt-4'>PWRRUN PB Foam in the midsole, full-length nylon plate. Speedroll technology underfoot. Versatile shoe ready to tide you through those miles, awesome durability.</p>
+                        </div>
+                        <div className = 'm-8 p-12 md:rounded-xl' style = {{background: "#ffffff"}}>
+                            <h1 className = 'flex justify-center text-2xl' > Daily Trainer/ Easy Days </h1>
+                            <img src='./pegasus36.jpeg' className = 'ml-8 lg:ml-12'/>
+                            <h2 className = 'flex justify-center text-xl italic'> Nike Pegasus 36 </h2>
+                            <p className = 'flex justify-center mt-4'>Cushlon Foam throughout the midsole, with full-length Air Zoom pocket. Ran more than 1000km in these, still going strong for easy days.</p>
+                        </div>
+                        <div className = 'm-8 p-12 md:rounded-xl' style = {{background: "#ffffff"}}>
+                            <h1 className = 'flex justify-center text-2xl' > Trail Running </h1>
+                            <img src='./pegasus37shield.jpeg' className = 'my-8 ml-8 lg:ml-12'/>
+                            <h2 className = 'flex justify-center text-xl italic'> Nike Pegasus 37 Shield </h2>
+                            <p className = 'flex justify-center mt-4'> Waterproof Upper! Full length Nike React Midsole (an upgrade from the cushlon foam) with a forefoot Air Zoom pocket.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             
         </div>

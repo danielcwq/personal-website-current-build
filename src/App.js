@@ -10,7 +10,8 @@ import LivingDeep from './components/livingdeep';
 import Resume from './components/resume';
 import Perspectives from './components/perspectives';
 import Running from './components/running';
-import DeepLife from './components/deeplife'
+import DeepLife from './components/deeplife';
+import DeepWork from './components/deepwork'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import ReactGa from 'react-ga';
 
@@ -39,6 +40,7 @@ function App() {
           <Route path = '/blog/perspectives' exact component = {Perspectives}/>
           <Route path = '/running' exact component = {Running}/>
           <Route path = '/blog/the-deep-life' exact component = {DeepLife}/>
+          <Route path = '/blog/deep-work' exact component = {DeepWork}/>
         </Switch>
       </div>
     </Router>
