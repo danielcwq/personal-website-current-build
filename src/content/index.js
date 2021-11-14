@@ -44,9 +44,9 @@ export default {
       },
       
     ],
-    desc: `Hello! Thanks for dropping by my site. I'm a high school junior who is passionate about student leadership and education development. In my free time, I strive to improve my hard skills in the above stack.`,
-    desc3: `I'm also an avid amateur distance runner and am someone who seeks to push my own physical and mental limits. Being a student athlete, excelling in school, and pursuing side hustles simulatenously is not an easy feat.`,
-    desc4: "Want to know about my thoughts on running?"
+    desc: `I'm a high school senior from Raffles Institution, Singapore. I'm passionate about all things tech, particularly cryptocurrencies and AI. I spend a majority of my time reading and meeting like-minded youths from around the world.`,
+    desc3: `As an amateur distance runner who seeks to push my own physical and mental limits, I look for new ways to live a deep and hard life. Being a student athlete, striving for excellence in school, and staying intentional is tough, but I relish the challenge.`,
+    desc4: "My thoughts on running 🏃‍♂️"
   },
 
   contact: {
