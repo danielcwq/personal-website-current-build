@@ -12,12 +12,14 @@ export default {
       "image of Daniel's bitmoji.",
     text: ["Daniel Ching", 'I am'],
     typical: [
-      'an aspiring web developer. 🖥',
-      2500,
-      'an Innovator at TKS.',
-      2500,
-      'an amateur runner. 🏃‍♂️',
-      2500,
+      ' an aspiring web developer. 🖥',
+      3000,
+      ' an Innovator at TKS.',
+      3000,
+      ' an amateur runner. 🏃‍♂️',
+      3000,
+      ' currently learning machine learning.',
+      3000
       
     ],
     btnText: 'Discover More',
@@ -45,6 +47,7 @@ export default {
       
     ],
     desc: `I'm a high school senior from Raffles Institution, Singapore. I'm passionate about all things tech, particularly cryptocurrencies and AI. I spend a majority of my time reading and meeting like-minded youths from around the world.`,
+    desc2: `I'm currently diving deep into machine learning, building the foundations from fast.ai. Apart from that, I maintain a blog where I write technical and personal pieces.`,
     desc3: `As an amateur distance runner who seeks to push my own physical and mental limits, I look for new ways to live a deep and hard life. Being a student athlete, striving for excellence in school, and staying intentional is tough, but I relish the challenge.`,
     desc4: "My thoughts on running 🏃‍♂️"
   },

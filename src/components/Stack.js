@@ -13,32 +13,37 @@ export default function Stack() {
           background: '#eee',
       }}
     >
-      <h1 className="text-5xl font-bold">About</h1>
+      <h1 className="text-5xl md:pt-24 font-bold">About</h1>
       <div className="flex flex-wrap justify-center mt-10 ">
-        {content.stack.tech.map((tech, index) => {
-          return (
-            <span
-              className={`${
-                index % 2 === 0 ? "animate-float" : "animate-refloat"
-              } w-40 h-40 bg-white shadow-2xl m- rounded-full flex items-center p-5`}
-            >
-              <LazyLoadImage src={tech.img} alt={tech.alt} />
-            </span>
-          );
-        })}
+      <img className = 'md:rounded-xl w-2/6 h-1/5'src = './picture2.jpg' alt = 'linkedin'/>
       </div>
       <p className="w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-10">
         {content.stack.desc}
+      </p>
+      <p className="w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-4">
+        {content.stack.desc2}
       </p>
       <p className = "w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-4">
         {content.stack.desc3}
       </p>
 
-      <div className = "mt-4 text-3xl font-bold text-center text-justify w-11/12 md:max-w-xl group hover:shadow-lg hover:border-gray-500 rounded-full md:pl-24">
-          <Link to = "/running">
-            {content.stack.desc4}
+     <div className = "flex">
+        <div className = "mt-4 text-3xl font-bold text-center  group hover:shadow-lg hover:border-gray-500 rounded-full p-2 ">
+            <Link to = "/running">
+              {content.stack.desc4}
+            </Link>
+            
+        </div>
+        <div className = 'text-3xl invisible md:visible mt-6'>
+          <p>|</p>
+        </div>
+        <div className = "invisible md:visible mt-4 text-3xl font-bold text-center text-justify group hover:shadow-lg hover:border-gray-500 rounded-full p-2">
+          <Link to = '/blog'>
+            My blog
           </Link>
+        </div>
       </div>
+      
     </div>
   );
 }
