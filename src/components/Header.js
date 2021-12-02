@@ -14,7 +14,7 @@ export default function Header() {
         background: "#ffffff",
       }}
     >
-      <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between flex-grow-0 ">
+      <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between ">
         <div className="w-2/5 h-2/5 md:rounded-xl">
           <LazyLoadImage
             src='./mugshot.png'
