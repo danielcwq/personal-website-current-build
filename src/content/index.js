@@ -13,13 +13,13 @@ export default {
     text: ["Daniel Ching", 'I am'],
     typical: [
       ' an aspiring web developer. 🖥',
-      3000,
+      1000,
       ' an Innovator at TKS.',
-      3000,
+      1000,
       ' an amateur runner. 🏃‍♂️',
-      3000,
+      1000,
       ' currently learning machine learning.',
-      3000
+      1000
       
     ],
     btnText: 'Discover More',

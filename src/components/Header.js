@@ -8,14 +8,14 @@ import { Link as ScrollLink } from "react-scroll";
 export default function Header() {
   return (
     <div
-      className="min-h-screen flex items-center justify-center"
+      className="min-h-screen flex items-center justify-center "
       id = 'header'
       style={{
         background: "#ffffff",
       }}
     >
-      <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between ">
-        <div className="w-1/3 h-2/5 md:rounded-xl">
+      <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between flex-grow-0 ">
+        <div className="w-2/5 h-2/5 md:rounded-xl">
           <LazyLoadImage
             src='./mugshot.png'
             effect="blur"
