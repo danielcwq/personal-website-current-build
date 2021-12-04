@@ -17,7 +17,7 @@ function Blog(){
                         <h1 className = 'text-2xl  pt-6 md:pt-12  italic text-justify font-dosis '> Technical Pieces </h1>
                     </div>
                     <a className = '' href = 'https://danielching.medium.com/under-the-hood-how-do-neural-networks-really-work-7b48b171dc8c#71eb' target = '_blank'>
-                            <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 ml-12 md:ml-0 md:pr-12 bg-gray-300 hover:bg-gray-400'>
+                            <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 ml-24 md:ml-0 md:pr-12 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
                                     <div className = 'font-semibold text-lg'>Under the hood — how do neural networks really work?</div>
                                     <div className = 'hidden md:block pl-4'> November 30 2021 </div>
@@ -30,7 +30,7 @@ function Blog(){
                             </div>
                         </a>
                     <a className = '' href = 'https://studentsxstudents.com/a-teenagers-foray-into-the-world-of-artificial-intelligence-868e5145ab92' target = '_blank'>
-                            <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 md:pr-12 ml-12 md:ml-0 bg-gray-300 hover:bg-gray-400'>
+                            <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 md:pr-12 ml-24 md:ml-0 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
                                     <div className = 'font-semibold text-lg'>A teenager's foray into artificial intelligence 🔍</div>
                                     <div className = 'hidden md:block pl-4'> November 14 2021 </div>
@@ -51,7 +51,7 @@ function Blog(){
                     </div>
 
                     <a className = '' href = 'https://studentsxstudents.com/the-importance-of-deep-work-and-time-blocking-part-2-6466e5c90e79' target = '_blank'>
-                        <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 ml-12 md:ml-0 shadow-md p-12 pr-12 bg-gray-300 hover:bg-gray-400'>
+                        <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 ml-24 md:ml-0 shadow-md p-12 pr-12 bg-gray-300 hover:bg-gray-400'>
                             <div className = 'flex justify-center'>
                                 <div className = 'font-semibold text-lg'>The Importance of Deep Work and Time Block Planning (Part 2) </div>
                                 <div className = 'hidden md:block pl-4'> October 27 2021 </div>

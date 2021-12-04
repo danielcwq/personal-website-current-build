@@ -14,8 +14,12 @@ export default function Home() {
                 <meta id="og-description" content=" RISE Finalist | TKS Innovator | Paragon Fellow " />
                 <meta id="og-url" content="danielching.netlify.app" />
             </MetaTags>
-            <Navigation />
-            <Header />
+            <div className = ''>
+                <Navigation />
+            </div>
+            <div className = ''>
+                <Header />
+            </div>
             <Stack />
             <Contact />
         </div>

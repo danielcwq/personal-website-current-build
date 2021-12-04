@@ -27,8 +27,8 @@ export default function Navigation(){
     return(
         <Fade>
             
-            <div className = 'visibile'>
-                <div className = 'flex items-center fixed z-10 w-full mx-auto bg-gray-200 md:py-2'>
+            <div className = 'visibile z-50'>
+                <div className = 'flex items-center fixed w-full mx-auto bg-gray-200 md:py-2'>
                         <Link 
                         to = '/'
                         className = 'text-xl font-dosis md:text-3xl font-bold text-black mx-auto md:ml-10 ml-3'>

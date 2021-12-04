@@ -15,12 +15,9 @@ export default function Header() {
       }}
     >
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between ">
-        <div className="w-2/5 h-2/5 md:rounded-xl">
-          <LazyLoadImage
-            src='./mugshot.png'
-            effect="blur"
-            placeholderSrc={process.env.PUBLIC_URL + "/logo512.png"}
-          />
+        <div className="w-2/5 h-2/5 md:rounded-xl ">
+          
+          <img src = './mugshot.png'></img>
         </div>
         <div className="text-black font-dosis text-center md:text-left bg-black h-full p-12 rounded-lg">
           <h2 className="text-3xl md:text-5xl text-white flex justify-center px-12 font-bold">

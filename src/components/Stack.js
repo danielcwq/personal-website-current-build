@@ -34,14 +34,7 @@ export default function Stack() {
             </Link>
             
         </div>
-        <div className = 'text-3xl invisible md:visible mt-6'>
-          <p>|</p>
-        </div>
-        <div className = "invisible md:visible mt-4 text-3xl font-bold text-center text-justify group hover:shadow-lg hover:border-gray-500 rounded-full p-2">
-          <Link to = '/blog'>
-            My blog
-          </Link>
-        </div>
+        
       </div>
       
     </div>
