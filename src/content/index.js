@@ -18,7 +18,7 @@ export default {
       3000,
       ' an amateur runner. 🏃‍♂️',
       3000,
-      ' currently learning machine learning.',
+      ' currently learning ML.',
       3000
       
     ],

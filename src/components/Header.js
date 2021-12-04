@@ -15,7 +15,7 @@ export default function Header() {
       }}
     >
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between ">
-        <div className="w-2/5 h-2/5 md:rounded-xl ">
+        <div className="w-2/5 h-2/5 md:rounded-xl mb-10 md:mb-0">
           
           <img src = './mugshot.png'></img>
         </div>
@@ -24,7 +24,7 @@ export default function Header() {
             {content.header.text[0]}
             <br />
           </h2>
-          <h1 className="font-bond text-2xl text-white text-center">
+          <h1 className="font-bond text-2xl text-white text-center pb-12 md:pb-0">
             {content.header.text[1]}{" "}
             <Typical
               steps={content.header.typical}
