@@ -17,11 +17,18 @@ export default function Home() {
             <div className = ''>
                 <Navigation />
             </div>
-            <div className = ''>
-                <Header />
+            <div class = 'snap-y snap-mandatory w-screen h-screen overflow-scroll'>
+                <div class = 'snap-start w-screen h-screen'>
+                    <Header />
+                </div>
+                <div class = 'snap-start'>
+                    <Stack />
+                </div>
+                <div class = 'snap-start'>
+                    <Contact />
+                </div>
             </div>
-            <Stack />
-            <Contact />
+            
         </div>
     )
     

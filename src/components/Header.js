@@ -14,6 +14,7 @@ export default function Header() {
         background: "#ffffff",
       }}
     >
+      <div className = 'bg-gradient-to-bl from-cyan-500 to-blue-500'>
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between ">
         <div className="w-2/5 h-2/5 md:rounded-xl mb-10 md:mb-0">
           
@@ -44,12 +45,14 @@ export default function Header() {
                   <a href = 'https://twitter.com/danielchingwq' class = 'button' className = 'px-2' target = "_blank"> 
                     <img src = './twitter_m.png' alt = 'twitter'/>
                   </a>
-                  <a href = 'https://dancwq2.medium.com' class = 'button' className = 'px-2' target = "_blank"> 
+                  <a href = 'https://danielching.medium.com' class = 'button' className = 'px-2' target = "_blank"> 
                     <img src = './medium_m.png' alt = 'medium'/>
                    </a>
           </div>
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }

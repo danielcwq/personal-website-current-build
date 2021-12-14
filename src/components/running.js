@@ -7,23 +7,67 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import MetaTags from 'react-meta-tags';
 import ImageSlider from './slideshow';
 import {SliderData} from './SliderData'
-import './SlideshowStyles.css'
+import './SlideshowStyles.css';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
+const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+};
+
+const items = [
+    <div className="item mx-8" data-value="1">
+        <img src = './run-1.png'/>
+    </div>,
+    <div className="item mx-8" data-value="2">
+        <img src = './run-2.png'/>
+    </div>,
+    <div className="item mx-8" data-value="3">
+        <img src = './run-3.png'/>
+    </div>,
+    <div className="item mx-8" data-value="4">
+        <img src = './run-4.png'/>
+    </div>,
+    <div className="item mx-8" data-value="5">
+        <img src ='./run-5.jpeg'/>
+    </div>,
+];
+
+const Carousel = () => (
+    <AliceCarousel 
+    animationEasingFunction="linear"
+    animationType="slide"
+    touchTracking={true}
+    items={items}
+    responsive={responsive}
+    />
+);
 
 
 function Running() {
     return(
         <div>
-            <Navigation/>
+            <div className = 'z-10 fixed'>
+                <Navigation/>
+            </div>
+            <div>
+
+            </div>
             <div className = "flex justify-center">
                 <h1 className = 'text-4xl p-24 font-bold font-dosis'>
                     Running as a student athlete
                 </h1>
                 
             </div>
-            <div className = "py-20 mx-42">
-                <ImageSlider slides = {SliderData}/>
+            <div class = 'bg-gradient-to-bl h-screen from-red-500 to-amber-500'>
+                <div className=" container mx-auto my-4 px-4 py-4  h-fit z-0 w-2/3 flex bg-gray-300 rounded-2xl">
+                    <Carousel/>
+                </div>
             </div>
+            
+            
+            
             <div className = 'pb-12'>
 
             </div>
@@ -52,7 +96,7 @@ function Running() {
                         2400m - 8 minutes 38 seconds [2019]
                     </div>
                     <div className = "text-center font-dosis">
-                        5000m - 19 minutes 42 seconds [2020]
+                        5000m - 19 minutes 42 seconds [2021]
                     </div>
                 </div>
 

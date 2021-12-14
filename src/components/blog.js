@@ -1,13 +1,14 @@
 import React from 'react';
 import Navigation from './Navigation';
-
 import {Link} from 'react-router-dom'
 import content from '../content';
 
 function Blog(){
     return(
         <div>
-            <Navigation />
+            <div className = ''>
+                <Navigation />
+            </div>
             <div className = 'flex justify-center'>
                 <h1 className = 'text-4xl pt-24 mt-2 font-bold pl-10 text-justify font-dosis'> My Blog </h1>
             </div>
@@ -24,7 +25,7 @@ function Blog(){
 
                                 </div>
                                 <div className = 'pt-4 md:pt-6'>
-                                    <p>Understanding how the math behind neural networks using the MNIST dataset. </p>
+                                    <p>Understanding how binary classification using the MNIST dataset. </p>
                                 </div>
                                     
                             </div>
@@ -49,6 +50,20 @@ function Blog(){
                     <div className = 'flex justify-center '>
                         <h1 className = 'text-2xl  pt-6 md:pt-12 italic pl-10 text-justify font-dosis '> Personal Pieces </h1>
                     </div>
+
+                    <a className = '' href = 'https://medium.com/educere/the-power-of-range-6bcadb3980fb' target = '_blank'>
+                        <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 ml-24 md:ml-0 shadow-md p-12 pr-12 bg-gray-300 hover:bg-gray-400'>
+                            <div className = 'flex justify-center'>
+                                <div className = 'font-semibold text-lg'>The Power of Range 📍</div>
+                                <div className = 'hidden md:block pl-4'> December 4 2021 </div>
+                            </div>
+                            <div className = 'pt-4 md:pt-6'>
+                                <p>A discussion on how education systems affect the development of students' interests. </p>
+                                <p></p>
+                            </div>
+                                
+                        </div>
+                    </a>
 
                     <a className = '' href = 'https://studentsxstudents.com/the-importance-of-deep-work-and-time-blocking-part-2-6466e5c90e79' target = '_blank'>
                         <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 ml-24 md:ml-0 shadow-md p-12 pr-12 bg-gray-300 hover:bg-gray-400'>
