@@ -48,8 +48,8 @@ const Carousel = () => (
 function Running() {
     return(
         <div>
-            <div className = 'z-10 fixed'>
-                <Navigation/>
+             <div className = 'z-10'>
+                <Navigation />
             </div>
             <div>
 
@@ -149,7 +149,7 @@ function Running() {
                 
                 <div className = "flex justify-center">
                     <h2 className = 'w-4/5 md:max-w-xl mx-auto text-3xl text-center font-dosis font-extrabold text-justify mt-4 flex items-center justify-around text-white'>
-                        My Running Shoe Matrix 👟
+                        My Running Shoe Matrix 
                     </h2>
                     
                 </div>

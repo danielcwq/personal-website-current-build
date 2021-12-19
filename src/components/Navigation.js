@@ -114,7 +114,7 @@ export default function Navigation(){
                             <Link to='#' className='menu-bars'>
                                 <FaIcons.FaBars onClick={showSidebar} />
                             </Link>
-                            <div className = 'text-2xl text-center ml-32'>
+                            <div className = 'text-2xl text-center ml-24'>
 
                             Daniel Ching
                             </div>
