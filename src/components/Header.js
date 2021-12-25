@@ -16,9 +16,9 @@ export default function Header() {
     >
       <div className = 'bg-gradient-to-bl from-cyan-500 to-blue-500'>
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between ">
-        <div className="w-2/5 h-2/5 md:rounded-xl mb-10 md:mb-0">
+        <div className="w-2/5 h-full md:h-1/4 md:rounded-lg mb-10 md:mb-0">
           
-          <img src = './mugshot.png'></img>
+          <img src = './mugshot2.jpg'></img>
         </div>
         <div className="text-black font-dosis text-center md:text-left bg-black h-full p-12 rounded-lg">
           <h2 className="text-3xl md:text-5xl text-white flex justify-center px-12 font-bold">
