@@ -17,6 +17,8 @@ const items = [
     <div className="item" data-value="3">Fast.ai</div>,
     <div className="item" data-value="4">Tailwind.css</div>,
     <div className="item" data-value="5">PyTorch</div>,
+    <div className="item" data-value="6">Python</div>,
+    <div className="item" data-value="7">JavaScript</div>
     
 ];
 
@@ -55,8 +57,28 @@ function Portfolio(){
             <div className = 'flex justify-center'>
                 <h1 className = 'text-3xl pt-10 md:pt-16 mt-2 font-bold pl-10 text-justify font-dosis'> Projects </h1>
             </div>
-            <div className = 'flex justify-center'>
-                <h2 className = 'text-xl pt-10 md:pt-16 mt-2 pl-10 text-justify font-dosis'> Currently building... check back later! </h2>
+            <div style = {{minHeight: "50vh"}} className = 'w-4/5 md:w-1/3 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700'>
+                
+                <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                    <img src='./chestxr.png'/>
+                    <div className = "text-2xl font-semibold my-5 text-center ">
+                        Multicategorical Classification of Chest Conditions
+                    </div>
+                    <div className = 'text-xl text-justify my-4'>
+                    I built an end-to-end multi-categorical classifier that is able to recognise 15 different chest conditions and return relative confidence levels. 
+                    </div>
+                    <div className = 'text-xl text-justify'>
+                    For this project, I used the fast.ai library in PyTorch and the NIH Chest X-Ray Sample dataset from Kaggle, achieving an accuracy of 92.8% using CNNs for this computer vision task.
+                    </div>
+                    <div className = 'flex flex-row justify-around'>
+                        <a href = 'https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997'class = 'rounded-lg bg-white text-black p-4'>
+                            Article
+                        </a>
+                        <a href = 'https://colab.research.google.com/drive/182vjivfl0LgJTYaofnBiY8FebNMsSyCG' className = 'rounded-lg bg-white text-black p-4'>
+                            Code
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )

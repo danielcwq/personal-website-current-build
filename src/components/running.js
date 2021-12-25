@@ -60,8 +60,8 @@ function Running() {
                 </h1>
                 
             </div>
-            <div class = 'bg-gradient-to-bl h-screen from-red-500 to-amber-500'>
-                <div className=" container mx-auto my-4 px-4 py-4  h-fit z-0 w-2/3 flex bg-gray-300 rounded-2xl">
+            <div class = 'bg-gradient-to-bl h-screen from-red-500 to-amber-500 z-0'>
+                <div className=" container mx-auto my-4 px-4 py-4  h-fit  w-2/3 flex bg-gray-300 rounded-2xl">
                     <Carousel/>
                 </div>
             </div>
