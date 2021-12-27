@@ -70,7 +70,7 @@ function Portfolio(){
                     <div className = 'text-xl text-justify'>
                     For this project, I used the fast.ai library in PyTorch and the NIH Chest X-Ray Sample dataset from Kaggle, achieving an accuracy of 92.8% using CNNs for this computer vision task.
                     </div>
-                    <div className = 'flex flex-row justify-around'>
+                    <div className = 'flex flex-row justify-around mt-4'>
                         <a href = 'https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997'class = 'rounded-lg bg-white text-black p-4'>
                             Article
                         </a>
