@@ -12,11 +12,73 @@ function Blog(){
             <div className = 'flex justify-center'>
                 <h1 className = 'text-4xl pt-24 mt-2 font-bold pl-10 text-justify font-dosis'> My Blog </h1>
             </div>
+            <div className = 'flex justify-center'>
+                <h1 className = 'text-2xl  pt-6 md:pt-12 font-medium text-justify font-dosis '> Monthly Newsletters </h1>
+            </div>
+            <div className = 'flex flex-col md:flex-row justify-between font-dosis ml-2 md:ml-4'>
+                    <a className = '' href = 'https://danielching.substack.com/p/september-newsletter-living-the-deep' target = '_blank'>
+                                    <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
+                                        <div className = 'flex justify-center'>
+                                            <div className = 'font-semibold text-lg'>September Newsletter</div>
+                                            <div className = 'hidden md:block pl-4'>Oct 5 2021</div>
+
+                                        </div>
+                                        <div className = 'pt-4 md:pt-6'>
+                                            <p> </p>
+                                        </div>
+                                            
+                                    </div>
+                                </a>
+                            <a className = '' href = 'https://danielching.substack.com/p/october-newsletter-normalising-failure' target = '_blank'>
+                            <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
+                                <div className = 'flex justify-center'>
+                                    <div className = 'font-semibold text-lg'>October Newsletter</div>
+                                    <div className = 'hidden md:block pl-4'>Oct 30 2021</div>
+
+                                </div>
+                                <div className = 'pt-4 md:pt-6'>
+                                    <p> </p>
+                                </div>
+                                    
+                            </div>
+                        </a>
+                    
+
+                        
+                        <a className = '' href = 'https://danielching.substack.com/p/november-newsletter-the-power-of' target = '_blank'>
+                            <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
+                                <div className = 'flex justify-center'>
+                                    <div className = 'font-semibold text-lg'>November Newsletter</div>
+                                    <div className = 'hidden md:block pl-4'>Nov 30 2021</div>
+
+                                </div>
+                                <div className = 'pt-4 md:pt-6'>
+                                    <p> </p>
+                                </div>
+                                    
+                            </div>
+                        </a>
+                    <div className = 'pl-2'>
+                    </div>
+            </div>
             <div className = 'flex flex-col md:flex-row justify-between'>
                 <div className = 'md:pl-12'>
                     <div className = 'flex justify-center '>
                         <h1 className = 'text-2xl  pt-6 md:pt-12  italic text-justify font-dosis '> Technical Pieces </h1>
                     </div>
+                    <a className = '' href = 'https://towardsdatascience.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997' target = '_blank'>
+                            <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 ml-24 md:ml-0 md:pr-12 bg-gray-300 hover:bg-gray-400'>
+                                <div className = 'flex justify-center'>
+                                    <div className = 'font-semibold text-lg'>Multi-cat classification of chest conditions from CXRs</div>
+                                    <div className = 'hidden md:block pl-4'>December 23 2021</div>
+
+                                </div>
+                                <div className = 'pt-4 md:pt-6'>
+                                    <p> Using fast.ai and the NIH CXR Dataset to classify x-rays into various chest conditions</p>
+                                </div>
+                                    
+                            </div>
+                        </a>
                     <a className = '' href = 'https://danielching.medium.com/under-the-hood-how-do-neural-networks-really-work-7b48b171dc8c#71eb' target = '_blank'>
                             <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 ml-24 md:ml-0 md:pr-12 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
@@ -25,7 +87,7 @@ function Blog(){
 
                                 </div>
                                 <div className = 'pt-4 md:pt-6'>
-                                    <p>Understanding how binary classification using the MNIST dataset. </p>
+                                    <p>Understanding how binary classification works using the MNIST dataset. </p>
                                 </div>
                                     
                             </div>
@@ -50,6 +112,19 @@ function Blog(){
                     <div className = 'flex justify-center '>
                         <h1 className = 'text-2xl  pt-6 md:pt-12 italic pl-10 text-justify font-dosis '> Personal Pieces </h1>
                     </div>
+                    <a className = '' href = 'https://danielching.medium.com/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c' target = '_blank'>
+                        <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 ml-24 md:ml-0 shadow-md p-12 pr-12 bg-gray-300 hover:bg-gray-400'>
+                            <div className = 'flex justify-center'>
+                                <div className = 'font-semibold text-lg'>How to get good at 2.4km 🏃</div>
+                                <div className = 'hidden md:block pl-4'>December 15 2021</div>
+                            </div>
+                            <div className = 'pt-4 md:pt-6'>
+                                <p>A comprehensive training guide - mainly for students or NSMen. </p>
+                                <p></p>
+                            </div>
+                                
+                        </div>
+                    </a>
 
                     <a className = '' href = 'https://medium.com/educere/the-power-of-range-6bcadb3980fb' target = '_blank'>
                         <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 ml-24 md:ml-0 shadow-md p-12 pr-12 bg-gray-300 hover:bg-gray-400'>
