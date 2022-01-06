@@ -53,9 +53,14 @@ function Portfolio(){
                     <Carousel/>
                 </div> 
             </div>
-             
             <div className = 'flex justify-center'>
-                <h1 className = 'text-3xl pt-10 md:pt-16 mt-2 font-bold pl-10 text-justify font-dosis'> Projects </h1>
+                <a href = "https://www.kaggle.com/danielcwq" className = 'mt-8 p-6 flex justify-center text-center font-dosis md:rounded-xl bg-gray-300 hover:bg-gray-500 text-2xl'>
+                    Kaggle Profile
+                </a>
+            </div>
+            
+            <div className = 'flex justify-center'>
+                <h1 className = 'text-3xl pt-10 md:pt-16 font-bold pl-10 text-justify font-dosis'> Projects </h1>
             </div>
             <div className = 'flex-row md:flex' style = {{minHeight: "50vh"}} >
                 <div className = 'w-4/5 md:w-1/3 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 '>
@@ -72,11 +77,11 @@ function Portfolio(){
                         For this project, I used the fast.ai library in PyTorch and the NIH Chest X-Ray Sample dataset from Kaggle, achieving an accuracy of 92.8% using CNNs for this computer vision task.
                         </div>
                         <div className = 'flex flex-row justify-around mt-4'>
-                            <a href = 'https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997'class = 'rounded-lg bg-white text-black p-4' target = '_blank'>
-                                Article
+                            <a href = 'https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                <b>Article</b> - 170+ Views, 46+ Reads
                             </a>
-                            <a href = 'https://colab.research.google.com/drive/182vjivfl0LgJTYaofnBiY8FebNMsSyCG' className = 'rounded-lg bg-white text-black p-4' target = '_blank'>
-                                Code
+                            <a href = 'https://colab.research.google.com/drive/182vjivfl0LgJTYaofnBiY8FebNMsSyCG' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                <b>Code</b>
                             </a>
                         </div>
                     </div>
@@ -94,11 +99,11 @@ function Portfolio(){
                         In this binary classifier, the neural network model, built using PyTorch, achieved a 99.7% accuracy trying to identify the handwritten digits '2' and '9'. 
                         </div>
                             <div className = 'flex flex-row justify-around mt-4'>
-                                <a href = 'https://towardsdatascience.com/under-the-hood-how-do-neural-networks-really-work-7b48b171dc8c'class = 'rounded-lg bg-white text-black p-4' target = '_blank'>
-                                    Article
+                                <a href = 'https://towardsdatascience.com/under-the-hood-how-do-neural-networks-really-work-7b48b171dc8c'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Article</b> - 925+ Views, 138+ Reads
                                 </a>
-                                <a href = 'https://colab.research.google.com/drive/1t85lNzxSzhm30t2OgTyAGAeFBLV3IGND#scrollTo=9ouSHtne9n6s' className = 'rounded-lg bg-white text-black p-4' target = '_blank'>
-                                    Code
+                                <a href = 'https://colab.research.google.com/drive/1t85lNzxSzhm30t2OgTyAGAeFBLV3IGND#scrollTo=9ouSHtne9n6s' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Code</b>
                                 </a>
                             </div>
                     </div>
