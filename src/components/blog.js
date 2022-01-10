@@ -15,7 +15,8 @@ function Blog(){
             <div className = 'flex justify-center'>
                 <h1 className = 'text-2xl  pt-6 md:pt-12 font-medium text-justify font-dosis '> Monthly Newsletters </h1>
             </div>
-            <div className = 'flex flex-col md:flex-row justify-between font-dosis ml-2 md:ml-4'>
+            <div className = 'grid grid-cols-1 md:grid-cols-3 gap-2 md:flex-row justify-between font-dosis mx-2 md:mx-4'>
+                <div>
                     <a className = '' href = 'https://danielching.substack.com/p/september-newsletter-living-the-deep' target = '_blank'>
                                     <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
                                         <div className = 'flex justify-center'>
@@ -23,12 +24,11 @@ function Blog(){
                                             <div className = 'hidden md:block pl-4'>Oct 5 2021</div>
 
                                         </div>
-                                        <div className = 'pt-4 md:pt-6'>
-                                            <p> </p>
-                                        </div>
-                                            
+                                       
                                     </div>
-                                </a>
+                    </a>
+                </div>
+                <div>
                             <a className = '' href = 'https://danielching.substack.com/p/october-newsletter-normalising-failure' target = '_blank'>
                             <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
@@ -36,15 +36,10 @@ function Blog(){
                                     <div className = 'hidden md:block pl-4'>Oct 30 2021</div>
 
                                 </div>
-                                <div className = 'pt-4 md:pt-6'>
-                                    <p> </p>
-                                </div>
-                                    
                             </div>
                         </a>
-                    
-
-                        
+                </div>
+                <div>
                         <a className = '' href = 'https://danielching.substack.com/p/november-newsletter-the-power-of' target = '_blank'>
                             <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
@@ -52,14 +47,23 @@ function Blog(){
                                     <div className = 'hidden md:block pl-4'>Nov 30 2021</div>
 
                                 </div>
-                                <div className = 'pt-4 md:pt-6'>
-                                    <p> </p>
-                                </div>
                                     
                             </div>
                         </a>
-                    <div className = 'pl-2'>
-                    </div>
+                </div>
+                <div>    
+                    <a className = '' href = 'https://danielching.substack.com/p/december-newsletter-reflections' target = '_blank'>
+                        <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
+                            <div className = 'flex justify-center'>
+                                <div className = 'font-semibold text-lg'>December Newsletter</div>
+                                <div className = 'hidden md:block pl-4'>Dec 31 2021</div>
+
+                            </div>
+                                
+                        </div>
+                    </a>
+                </div>
+                    
             </div>
             <div className = 'flex flex-col md:flex-row justify-between'>
                 <div className = 'md:pl-12'>
