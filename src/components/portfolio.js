@@ -100,7 +100,7 @@ function Portfolio(){
                         </div>
                             <div className = 'flex flex-row justify-around mt-4'>
                                 <a href = 'https://towardsdatascience.com/under-the-hood-how-do-neural-networks-really-work-7b48b171dc8c'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                    <b>Article</b> - 925+ Views, 138+ Reads
+                                    <b>Article</b> - 1000+ Views, 150+ Reads
                                 </a>
                                 <a href = 'https://colab.research.google.com/drive/1t85lNzxSzhm30t2OgTyAGAeFBLV3IGND#scrollTo=9ouSHtne9n6s' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                     <b>Code</b>
