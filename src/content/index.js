@@ -12,13 +12,15 @@ export default {
       "image of Daniel's bitmoji.",
     text: ["Daniel Ching", 'I am'],
     typical: [
-      ' an aspiring web developer. 🖥',
+      ' an aspiring developer. 🖥',
       3000,
       ' an Innovator at TKS.',
       3000,
       ' an amateur runner. 🏃‍♂️',
       3000,
       ' currently learning ML.',
+      3000,
+      ' exploring AI x Healthcare.',
       3000
       
     ],
