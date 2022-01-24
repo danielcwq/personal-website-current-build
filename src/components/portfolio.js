@@ -62,8 +62,8 @@ function Portfolio(){
             <div className = 'flex justify-center'>
                 <h1 className = 'text-3xl pt-10 md:pt-16 font-bold pl-10 text-justify font-dosis'> Projects </h1>
             </div>
-            <div className = 'flex-row md:flex' style = {{minHeight: "50vh"}} >
-                <div className = 'w-4/5 md:w-1/3 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 '>
+            <div className = 'grid grid-cols-1 md:grid-cols-2 gap-2 md:flex-row justify-between font-dosis mx-2 md:mx-4' style = {{minHeight: "50vh"}} >
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 '>
                     
                     <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
                         <img src='./chestxr.png'/>
@@ -78,7 +78,7 @@ function Portfolio(){
                         </div>
                         <div className = 'flex flex-row justify-around mt-4'>
                             <a href = 'https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                <b>Article</b> - 170+ Views, 46+ Reads
+                                <b>Article</b> - 200+ Views, 50+ Reads
                             </a>
                             <a href = 'https://colab.research.google.com/drive/182vjivfl0LgJTYaofnBiY8FebNMsSyCG' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                 <b>Code</b>
@@ -86,7 +86,7 @@ function Portfolio(){
                         </div>
                     </div>
                 </div>
-                <div className = 'w-4/5 md:w-1/3 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700'>
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700'>
                     <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
                         <img src='./mnist.png'/>
                         <div className = "text-2xl font-semibold my-5 text-center">
@@ -108,6 +108,29 @@ function Portfolio(){
                             </div>
                     </div>
                 </div>
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 mt-5'>
+                    <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                        <img src='./medicalT.png'/>
+                        <div className = "text-2xl font-semibold my-5 text-center">
+                            Medical Transcription Classifier
+                        </div>
+                        <div className = 'text-xl text-justify my-4'>
+                        In this project, I aimed to predict various medical specialities given a patient's recorded transcript.  
+                        </div>
+                        <div className = 'text-xl text-justify'>
+                        Utilising best practices within NLP such as the ULMFit Training hierarchy, this model achieved 62% accuracy with fast.ai and the related kaggle dataset. 
+                        </div>
+                            <div className = 'flex flex-row justify-around mt-4'>
+                                <a href = ''class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Coming soon!</b> 
+                                </a>
+                                <a href = 'https://www.kaggle.com/danielcwq/predict-medical-specialty-fastai' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Code</b>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+
             </div>
            
            
