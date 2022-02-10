@@ -20,7 +20,7 @@ function Blog(){
                     <a className = '' href = 'https://danielching.substack.com/p/september-newsletter-living-the-deep' target = '_blank'>
                                     <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
                                         <div className = 'flex justify-center'>
-                                            <div className = 'font-semibold text-lg'>September Newsletter</div>
+                                            <div className = 'font-semibold text-lg'>September</div>
                                             <div className = 'hidden md:block pl-4'>Oct 5 2021</div>
 
                                         </div>
@@ -32,7 +32,7 @@ function Blog(){
                             <a className = '' href = 'https://danielching.substack.com/p/october-newsletter-normalising-failure' target = '_blank'>
                             <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
-                                    <div className = 'font-semibold text-lg'>October Newsletter</div>
+                                    <div className = 'font-semibold text-lg'>October </div>
                                     <div className = 'hidden md:block pl-4'>Oct 30 2021</div>
 
                                 </div>
@@ -43,7 +43,7 @@ function Blog(){
                         <a className = '' href = 'https://danielching.substack.com/p/november-newsletter-the-power-of' target = '_blank'>
                             <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
-                                    <div className = 'font-semibold text-lg'>November Newsletter</div>
+                                    <div className = 'font-semibold text-lg'>November</div>
                                     <div className = 'hidden md:block pl-4'>Nov 30 2021</div>
 
                                 </div>
@@ -55,8 +55,20 @@ function Blog(){
                     <a className = '' href = 'https://danielching.substack.com/p/december-newsletter-reflections' target = '_blank'>
                         <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
                             <div className = 'flex justify-center'>
-                                <div className = 'font-semibold text-lg'>December Newsletter</div>
+                                <div className = 'font-semibold text-lg'>December</div>
                                 <div className = 'hidden md:block pl-4'>Dec 31 2021</div>
+
+                            </div>
+                                
+                        </div>
+                    </a>
+                </div>
+                <div>    
+                    <a className = '' href = 'https://danielching.substack.com/p/january-newsletter-the-power-of-belief' target = '_blank'>
+                        <div className = 'flex justify-center flex-col font-dosis w-3/5 md:w-full rounded-xl mt-10 shadow-md p-12 ml-24 md:mx-6 bg-gray-300 hover:bg-gray-400'>
+                            <div className = 'flex justify-center'>
+                                <div className = 'font-semibold text-lg'>January </div>
+                                <div className = 'hidden md:block pl-4'>Feb 4 2022</div>
 
                             </div>
                                 
@@ -70,10 +82,23 @@ function Blog(){
                     <div className = 'flex justify-center '>
                         <h1 className = 'text-2xl  pt-6 md:pt-12  italic text-justify font-dosis '> Technical Pieces </h1>
                     </div>
+                    <a className = '' href = '' target = '_blank'>
+                            <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 ml-24 md:ml-0 md:pr-12 bg-gray-300 hover:bg-gray-400'>
+                                <div className = 'flex justify-center'>
+                                    <div className = 'font-semibold text-lg'>Predicting Medical Specialities using ULMFiT</div>
+                                    <div className = 'hidden md:block pl-4'>February 10 2022</div>
+
+                                </div>
+                                <div className = 'pt-4 md:pt-6'>
+                                    <p> A complete tutorial to predicting medical specialties from patients' transcripts using ULMFiT</p>
+                                </div>
+                                    
+                            </div>
+                        </a>
                     <a className = '' href = 'https://towardsdatascience.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997' target = '_blank'>
                             <div className = 'flex justify-center flex-col flex-grow-0 font-dosis w-3/5 md:w-full rounded-xl mt-10 md:mt-12 shadow-md p-12 ml-24 md:ml-0 md:pr-12 bg-gray-300 hover:bg-gray-400'>
                                 <div className = 'flex justify-center'>
-                                    <div className = 'font-semibold text-lg'>Multi-cat classification of chest conditions from CXRs</div>
+                                    <div className = 'font-semibold text-lg'>Multi-classification of chest conditions from CXRs</div>
                                     <div className = 'hidden md:block pl-4'>December 23 2021</div>
 
                                 </div>
