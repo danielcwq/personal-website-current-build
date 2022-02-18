@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "merge-deep": "^3.0.3",
+    "pdfjs-dist": "^2.12.313",
     "react": "^17.0.0",
     "react-alice-carousel": "^2.5.1",
     "react-dom": "^17.0.0",
