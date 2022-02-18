@@ -109,6 +109,7 @@ function Portfolio(){
                     </div>
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 mt-5'>
                     <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
                         <img src='./medicalT.png'/>
@@ -132,6 +133,8 @@ function Portfolio(){
                     </div>
                 </div>
 
+=======
+>>>>>>> parent of b2c08c7 (Added new project)
 =======
 >>>>>>> parent of b2c08c7 (Added new project)
             </div>
