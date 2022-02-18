@@ -118,7 +118,7 @@ function Portfolio(){
                         In this project, I aimed to predict various medical specialities given a patient's recorded transcript.  
                         </div>
                         <div className = 'text-xl text-justify'>
-                        Utilising best practices within NLP such as the ULMFit Training hierarchy, this model achieved 62% accuracy with fast.ai and the related kaggle dataset. 
+                        Utilising best practices within NLP such as the ULMFiT Training hierarchy, this model achieved 62% accuracy with fast.ai and the related kaggle dataset. 
                         </div>
                             <div className = 'flex flex-row justify-around mt-4'>
                                 <a href = 'https://towardsdatascience.com/predicting-medical-specialities-from-transcripts-a-complete-walkthrough-using-ulmfit-b8a075777723'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
