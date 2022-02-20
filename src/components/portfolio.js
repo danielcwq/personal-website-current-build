@@ -78,7 +78,7 @@ function Portfolio(){
                         </div>
                         <div className = 'flex flex-row justify-around mt-4'>
                             <a href = 'https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                <b>Article</b> - 200+ Views, 50+ Reads
+                                <b>Article</b> - 300+ Views, 70+ Reads
                             </a>
                             <a href = 'https://colab.research.google.com/drive/182vjivfl0LgJTYaofnBiY8FebNMsSyCG' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                 <b>Code</b>
@@ -122,7 +122,7 @@ function Portfolio(){
                         </div>
                             <div className = 'flex flex-row justify-around mt-4'>
                                 <a href = 'https://towardsdatascience.com/predicting-medical-specialities-from-transcripts-a-complete-walkthrough-using-ulmfit-b8a075777723'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                    <b>Article</b> 
+                                    <b>Article</b> - 300+ Views, 60+ Reads
                                 </a>
                                 <a href = 'https://www.kaggle.com/danielcwq/predict-medical-specialty-fastai' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                     <b>Code</b>
