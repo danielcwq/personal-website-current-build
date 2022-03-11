@@ -60,7 +60,7 @@ function Running() {
                 </h1>
                 
             </div>
-            <div class = 'bg-gradient-to-bl h-screen from-red-500 to-amber-500 z-0'>
+            <div class = 'bg-gradient-to-bl h-screen from-red-500 to-amber-500 z-0 my-8'>
                 <div className=" container mx-auto my-4 px-4 py-4  h-fit  w-2/3 flex bg-gray-300 rounded-2xl">
                     <Carousel/>
                 </div>
@@ -127,6 +127,9 @@ function Running() {
                         </p>
                         <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40">
                         For me, I run because I love the sport, and I love the feeling of remaining aerobically fit. There is a special kind of solitude for me to disconnect from my work, from the fast tempo (pun intended) of day to day student life. Keeping myself fit is not just for fitness tests, rather, it has become a way of life. 
+                        </p>
+                        <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40">
+                        Running can and should be fun! It doesn't matter how slow you run, as long as you enjoy the process and complete the run. People often start off too ambitious and pay for it dearly later, but don't make that mistake. 
                         </p>
                         <p className = "text-lg py-3 px-4 text-justify md:py-3 md:px-40">
                         Well, if you truly want to get faster (especially for 2.4km, for guys in SG), you can refer to a training plan I did up for students here. 👇 Also, if you are looking for some cheat shoes, be sure to check out the list below as well. 
