@@ -135,12 +135,12 @@ function Running() {
                         Well, if you truly want to get faster (especially for 2.4km, for guys in SG), you can refer to a training plan I did up for students here. 👇 Also, if you are looking for some cheat shoes, be sure to check out the list below as well. 
                         </p>
                         <div className = 'mt-4'>
-                        <a className = '' href = 'https://betterhumans.pub/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c' target = '_blank' className = 'font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400'>
+                        <a className = '' href = 'https://betterhumans.pub/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c' target = '_blank' class= 'font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400'>
                             How to get good at 2.4, for students 
                         </a>
                         </div>
                         <div className = 'mt-10'>
-                            <a className = '' href = 'https://docs.google.com/document/d/1Iq_yL2vF2Ax9AOguGEB4v3UASjLqC329E_DI3dfH09k/edit' target = '_blank' className = 'font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400'>
+                            <a className = '' href = 'https://docs.google.com/document/d/1Iq_yL2vF2Ax9AOguGEB4v3UASjLqC329E_DI3dfH09k/edit' target = '_blank' class= 'font-dosis font-bold w-4/5 md:w-4/5 rounded-xl mt-10 md:mt-12 shadow-md p-2 bg-gray-300 hover:bg-gray-400'>
                                 My Running Shoe Recommendations for 2021
                             </a>
                         </div>

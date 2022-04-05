@@ -120,16 +120,42 @@ function Portfolio(){
                         <div className = 'text-xl text-justify'>
                         Utilising best practices within NLP such as the ULMFiT Training hierarchy, this model achieved 62% accuracy with fast.ai and the related kaggle dataset. 
                         </div>
-                            <div className = 'flex flex-row justify-around mt-4'>
+                        <div className = 'flex flex-row justify-around mt-4'>
                                 <a href = 'https://towardsdatascience.com/predicting-medical-specialities-from-transcripts-a-complete-walkthrough-using-ulmfit-b8a075777723'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                     <b>Article</b> - 300+ Views, 60+ Reads
                                 </a>
                                 <a href = 'https://www.kaggle.com/danielcwq/predict-medical-specialty-fastai' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                     <b>Code</b>
                                 </a>
-                            </div>
+                        </div>
                     </div>
                 </div>
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-green-700 mt-5'>
+                    <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                        <img src='./introClass.png'/>
+                        <div className = "text-2xl font-semibold my-5 text-center">
+                            Teaching FastAI to high-school students
+                        </div>
+                        <div className = 'text-xl text-justify my-4'>
+                        Taught the FastAI x PyTorch stack to high school seniors, 5 months after going through the full course. 
+                        </div>
+                        <div className = 'text-xl text-justify'>
+                        I wanted to go past teaching just <i>another</i> technology stack. I explained how it was possible to make real world impact and get opportunities outside of high school. 
+                        </div>
+                        <div className = 'flex flex-column md:flex-row justify-around mt-4'>
+                                <a href = 'https://drive.google.com/drive/folders/15ly0fkBH7BY6u9ELdeBSzmKbyIhlTk0B?usp=sharing'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Slides and code</b>
+                                </a>
+                                <a href = 'https://docs.google.com/document/d/1et9LhkKc5LWPRIf2Ib4npdCuefhpYSPirEWKmFYflZs/edit' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>FastAI Resource Hub</b>
+                                </a>
+                                <a href = 'https://danielching.notion.site/Lesson-Planning-for-CSS-b37fd8ff12004801ac606526604af77b' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <p>Lesson Notes</p>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
            
