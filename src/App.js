@@ -12,13 +12,15 @@ import Perspectives from './components/perspectives';
 import Running from './components/running';
 import DeepLife from './components/deeplife';
 import DeepWork from './components/deepwork';
-import Portfolio from './components/portfolio'
+import Portfolio from './components/portfolio';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import About from './components/about';
+import NavigationHome from './components/NavigationHome';
 import ReactGa from 'react-ga';
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize('UA-210213904-1');
+    ReactGa.initialize('G-Y53GCEEX9N');
     // To Report Page View 
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, [])
@@ -43,6 +45,7 @@ function App() {
           <Route path = '/blog/the-deep-life' exact component = {DeepLife}/>
           <Route path = '/blog/deep-work' exact component = {DeepWork}/>
           <Route path = '/portfolio' exact component = {Portfolio}/>
+          <Route path = '/about' exact component = {About}/>
         </Switch>
       </div>
     </Router>

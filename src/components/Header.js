@@ -16,7 +16,7 @@ export default function Header() {
     >
       <div className = 'bg-gradient-to-bl from-cyan-500 to-blue-500'>
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between ">
-        <div className="w-2/5 h-full md:h-1/4 md:rounded-lg mb-10 md:mb-0">
+        <div className="w-2/5 h-full md:h-1/4 ">
           
           <img src = './mugshot2.jpg'></img>
         </div>

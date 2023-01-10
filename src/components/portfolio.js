@@ -155,6 +155,20 @@ function Portfolio(){
                         </div>
                     </div>
                 </div>
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 mt-5'>
+                    <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                        <img src=''/>
+                        <div className = "text-2xl font-semibold my-5 text-center">
+                            Smaller side projects 
+                        </div>
+                        <div className = 'flex text-justify justify-around my-4'>
+                            <a href = 'https://colab.research.google.com/drive/1JdmWP4HIRUwSAw6lhBuqV78Ua2El7Ll6?usp=sharing'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <p>Identifying bird species</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
 
 
             </div>

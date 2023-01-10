@@ -3,6 +3,7 @@ import Navigation from './Navigation'
 import Header from './Header'
 import Stack from './Stack'
 import Contact from './contact'
+import HeaderNew from './HeaderNew';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import MetaTags from 'react-meta-tags';
 
@@ -17,16 +18,11 @@ export default function Home() {
             <div className = ''>
                 <Navigation />
             </div>
-            <div class = 'snap-y snap-mandatory w-screen h-screen overflow-scroll'>
-                <div class = 'snap-start w-screen h-screen'>
-                    <Header />
+            <div class = ''>
+                <div class = ''>
+                    <HeaderNew />
                 </div>
-                <div class = 'snap-start'>
-                    <Stack />
-                </div>
-                <div class = 'snap-start'>
-                    <Contact />
-                </div>
+                
             </div>
             
         </div>

@@ -70,7 +70,7 @@ export default function Navigation(){
     return(
         <Fade>
             
-            <div className = 'md:visible invisible'>
+            <div className = 'md:invisible invisible'>
                 <div className = 'flex items-center fixed z-10 w-full mx-auto bg-gray-200 md:py-2'>
                         <Link 
                         to = '/'
@@ -121,23 +121,23 @@ export default function Navigation(){
 
                         </div>
                         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                        <ul className='nav-menu-items' onClick={showSidebar}>
-                            <li className='navbar-toggle'>
-                            <Link to='#' className='menu-bars'>
-                                <AiIcons.AiOutlineClose />
-                            </Link>
-                            </li>
-                            {SidebarData.map((item, index) => {
-                            return (
-                                <li key={index} className={item.cName}>
-                                <Link to={item.path}>
-                                    {item.icon}
-                                    <span>{item.title}</span>
+                            <ul className='nav-menu-items font-dosis' onClick={showSidebar}>
+                                <li className='navbar-toggle'>
+                                <Link to='#' className='menu-bars'>
+                                    <AiIcons.AiOutlineClose />
                                 </Link>
                                 </li>
-                            );
-                            })}
-                        </ul>
+                                {SidebarData.map((item, index) => {
+                                return (
+                                    <li key={index} className={item.cName}>
+                                    <Link to={item.path}>
+                                        {item.icon}
+                                        <span>{item.title}</span>
+                                    </Link>
+                                    </li>
+                                );
+                                })}
+                            </ul>
                         </nav>
                     </IconContext.Provider>
                 
