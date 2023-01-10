@@ -1,7 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
 import content from '../content';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Perspectives(){
     return(
@@ -22,7 +21,7 @@ function Perspectives(){
             <h2 className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
             The first thing that struck me as the obvious difference between Singaporean and Filipino education systems was the difference in motivation. While Singaporean students in Junior Colleges had to worry day and night about their academic performance leading up to the dreaded ‘A’ Level Examinations, Philippine students on the other hand take great pride and joy in the subject content that they have signed up to study for. Students at the senior-high division in MINT college, for example, had the opportunity to pursue interdisciplinary studies in music and business. As someone who had only the ‘tried-and-tested’ path to venture down in RI, the prospect of interdisciplinary studies was invigorating. Having the ability to learn subjects that one has passion in, and relate it back to creating value in the real world through market valuation is certainly one of the best ways to educate the next generation of creative artists in this unpredictable world. I had the opportunity to speak with a student from MINT: Carlos Ian Garcia. He is a student currently studying the subject of music business management, and was willing to share with me some insights on the way lessons were conducted there. His love for music came across the moment he jumped online - a piano keyboard was evident in the background, there was a studio microphone that I could discern in front of the camera - probably utilised in music production too. 
             </h2>
-            <LazyLoadImage
+            <img
             className = 'h-full w-full md:py-1 md:px-4 md:px-40'
             src = {content.blog3.img}/>
             <div className = 'flex justify-center'>

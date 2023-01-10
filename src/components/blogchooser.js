@@ -1,7 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
 import content from '../content';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import {Link} from 'react-router-dom';
 
 function blogChoice(){
@@ -46,7 +45,7 @@ function blogChoice(){
                 <h2 className = 'text-lg py-3 px-4 text-justify md:py-1 md:px-40'> 
                 This method works, because it forces reviewed content to be brought up consistently, therefore allowing whatever content that is being reviewed to be stored in long-term memory. 
         An example would be starting review two to three months before a major examination, from minute amounts. The key to this is consistency, and having literally no days off. </h2>
-                <LazyLoadImage
+                <img
                 className = 'h-auto w-auto md:py-1 md:px-4 md:px-40'
                 src = {content.blog1.img}/>
                 <div className = 'flex justify-center'>

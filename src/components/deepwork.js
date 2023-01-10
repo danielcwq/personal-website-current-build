@@ -1,7 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
 import content from '../content';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import {Link} from 'react-router-dom';
 
 function DeepWork(){

@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import content from "../content";
-import "react-lazy-load-image-component/src/effects/blur.css";
 import Typical from "react-typical";
 import { Link as ScrollLink } from "react-scroll";
 import contact from '../content/index.js'

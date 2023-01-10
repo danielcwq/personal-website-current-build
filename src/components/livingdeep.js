@@ -2,7 +2,6 @@ import React from 'react';
 import Navigation from './Navigation'
 import {Link} from 'react-router-dom';
 import content from '../content';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function LivingDeep(){
     return (

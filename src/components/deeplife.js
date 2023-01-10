@@ -1,7 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
 import content from '../content';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import {Link} from 'react-router-dom';
 import Contact from './contact'
 
@@ -39,7 +38,7 @@ function DeepLife(){
                             ----------------------------------------------------------
                     </div>
                     <div  className = 'flex justify-center'>
-                        <LazyLoadImage
+                        <img
                         className = 'h-52 w-52 md:py-1 md:px-4 md:px-40'
                         src = 'https://cdn-icons.flaticon.com/png/512/525/premium/525872.png?token=exp=1634250628~hmac=d8e9f0d24763aa6443ae6bab904195ce'/>
                     </div>
@@ -70,7 +69,7 @@ function DeepLife(){
                    Action 2: Create a rough schedule of your week on Google Calendar. Broadly identify blocks of time when you are at school, when you’re participating in your clubs, as well as any preparatory classes. To establish a routine of priming your brain for focused, uninterrupted work, identify times in the day when you know you would be studying.
                    </div>
                    <div  className = 'flex justify-center'>
-                        <LazyLoadImage
+                        <img
                         className = 'h-52 w-52 md:py-1 md:px-4 md:px-40'
                         src = 'https://www.planninginspired.com/wp-content/uploads/2020/09/time-blocking-with-google-calendar-2-1-1024x683.png'/>
                     </div>
