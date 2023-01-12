@@ -16,7 +16,7 @@ export default function About() {
                 <Navigation />
                 <h1 className="text-5xl flex justify-center md:pt-24 font-bold">About</h1>
                 <div className="flex flex-wrap justify-center mt-10 ">
-                    <img className = 'md:rounded-xl w-2/6 h-1/5'src = './picture2.jpg' alt = 'linkedin'/>
+                    <img className = 'md:rounded-xl w-2/6 h-1/5'src = './faceshot.png' alt = ''/>
                 </div>
                 <p className="w-11/12 md:max-w-xl mx-auto text-xl text-center text-justify mt-10">
                     {content.stack.desc}
