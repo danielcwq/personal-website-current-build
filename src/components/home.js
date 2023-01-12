@@ -15,7 +15,7 @@ export default function Home() {
                 <meta id="og-description" content=" RISE Finalist | TKS Innovator | Paragon Fellow " />
                 <meta id="og-url" content="danielching.netlify.app" />
             </MetaTags>
-            <div className = ''>
+            <div className = 'md:hidden'>
                 <Navigation />
             </div>
             <div class = ''>

@@ -14,7 +14,7 @@ export default function About() {
     >
             <div>
                 <Navigation />
-                <h1 className="text-5xl md:pt-24 font-bold">About</h1>
+                <h1 className="text-5xl flex justify-center md:pt-24 font-bold">About</h1>
                 <div className="flex flex-wrap justify-center mt-10 ">
                     <img className = 'md:rounded-xl w-2/6 h-1/5'src = './picture2.jpg' alt = 'linkedin'/>
                 </div>

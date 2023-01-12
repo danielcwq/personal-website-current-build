@@ -70,7 +70,7 @@ export default function Navigation(){
     return(
         <Fade>
             
-            <div className = 'md:invisible invisible'>
+            <div className = ''>
                 <div className = 'flex items-center fixed z-10 w-full mx-auto bg-gray-200 md:py-2'>
                         <Link 
                         to = '/'

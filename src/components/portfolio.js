@@ -18,8 +18,8 @@ const items = [
     <div className="item" data-value="4">Tailwind.css</div>,
     <div className="item" data-value="5">PyTorch</div>,
     <div className="item" data-value="6">Python</div>,
-    <div className="item" data-value="7">JavaScript</div>
-    
+    <div className="item" data-value="7">JavaScript</div>,
+    <div className="item" data-value="8">Technial Writing</div>
 ];
 
 const Carousel = () => (
@@ -78,7 +78,7 @@ function Portfolio(){
                         </div>
                         <div className = 'flex flex-row justify-around mt-4'>
                             <a href = 'https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                <b>Article</b> - 300+ Views, 70+ Reads
+                                <b>Article</b> - 1600+ Views
                             </a>
                             <a href = 'https://colab.research.google.com/drive/182vjivfl0LgJTYaofnBiY8FebNMsSyCG' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                 <b>Code</b>
@@ -100,7 +100,7 @@ function Portfolio(){
                         </div>
                             <div className = 'flex flex-row justify-around mt-4'>
                                 <a href = 'https://towardsdatascience.com/under-the-hood-how-do-neural-networks-really-work-7b48b171dc8c'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                    <b>Article</b> - 1000+ Views, 150+ Reads
+                                    <b>Article</b> - 2000+ Views
                                 </a>
                                 <a href = 'https://colab.research.google.com/drive/1t85lNzxSzhm30t2OgTyAGAeFBLV3IGND#scrollTo=9ouSHtne9n6s' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                     <b>Code</b>
@@ -122,7 +122,7 @@ function Portfolio(){
                         </div>
                         <div className = 'flex flex-row justify-around mt-4'>
                                 <a href = 'https://towardsdatascience.com/predicting-medical-specialities-from-transcripts-a-complete-walkthrough-using-ulmfit-b8a075777723'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                    <b>Article</b> - 300+ Views, 60+ Reads
+                                    <b>Article</b> - 1200+ Views
                                 </a>
                                 <a href = 'https://www.kaggle.com/danielcwq/predict-medical-specialty-fastai' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                     <b>Code</b>
@@ -153,6 +153,46 @@ function Portfolio(){
                                     <p>Lesson Notes</p>
                                 </a>
                         </div>
+                    </div>
+                </div>
+                
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-yellow-700 mt-5'>
+                    <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                        <img src='./riseHeader.png'/>
+                        <div className = "text-2xl font-semibold my-5 text-center">
+                            RISE For the World Project
+                        </div>
+                        <div className = 'text-xl text-justify my-4'>
+                        Participated in the inaugural RISE Challenge, creating a prototype of an app that connects like-minded youths to solve the world’s biggest problems.  
+                        </div>
+                        <div className = 'text-xl text-justify'>
+                        My efforts culminated in the website linked below, and was recognised with the inaugural RISE Finalist award.
+                        </div>
+                        <div className = 'flex flex-column md:flex-row justify-around mt-4'>
+                                <a href = 'https://dancwq2.wixsite.com/rise-project'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Wesbite</b>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-green-700 mt-5'>
+                    <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                        <img src='	https://rishd.weebly.com/uploads/1/2/6/2/126261661/background-images/70117589.jpeg'/>
+                        <div className = "text-2xl font-semibold my-5 text-center">
+                            Singapore History Day 2019 
+                        </div>
+                        <div className = 'text-xl text-justify my-4'>
+                        Participated in the Singapore History Day 2019 Competition, investigating racial relations in early modern Singapore (c. 1819-1867).  
+                        </div>
+                        <div className = 'text-xl text-justify my-4'>
+                        These efforts culminated in my team being awarded the 3rd place nationwide. The website is linked below.
+                        </div>
+                        <div className = 'flex text-justify justify-around my-4'>
+                            <a href = 'https://rishd.weebly.com/'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Website</b>
+                            </a>
+                        </div>
+                        
                     </div>
                 </div>
                 <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 mt-5'>
