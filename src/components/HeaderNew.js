@@ -17,7 +17,7 @@ export default function HeaderNew(){
        </div>
         <div className="w-full md:flex flex-row mt-4">
                <div class= "md:w-2/3">
-                    <img class = "mt-2 rounded-full w-2/5 mx-auto md:mt-0" src = './mugshotfinal.png'></img>
+                    <img class = "mt-2 rounded-full w-2/5 mx-auto md:mt-0" src = './mugshotfinalmin.png'></img>
                     <div className = "md:w-2/3 flex flex-wrap flex-shrink justify-evenly justify-between md:mb-4 px-10 mt-4 mx-auto">
                         <a href = 'https://www.linkedin.com/in/daniel-ching-87455b204/' class = 'button' className = 'md:px-2' target = "_blank">
                                 <img src = './linkedin_m.png' alt = 'linkedin'/>
@@ -63,7 +63,7 @@ export default function HeaderNew(){
                     </div>
                     <div class ="hover:font-bold">
                         <Link to = "/running">
-                            Running 🚧
+                            Running 
                         </Link>
                     </div>
                 </div>

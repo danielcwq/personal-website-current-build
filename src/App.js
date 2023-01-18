@@ -15,6 +15,7 @@ import DeepWork from './components/deepwork';
 import Portfolio from './components/portfolio';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import About from './components/about';
+import RunningRevised from './components/runningRevised';
 import NavigationHome from './components/NavigationHome';
 import ReactGa from 'react-ga';
 
@@ -41,11 +42,11 @@ function App() {
           <Route path='/blog/revision-techniques' exact component={blogChoice}/>
           <Route path = '/blog/living-the-deep-life' exact component = {LivingDeep}/>
           <Route path = '/blog/perspectives' exact component = {Perspectives}/>
-          <Route path = '/running' exact component = {Running}/>
           <Route path = '/blog/the-deep-life' exact component = {DeepLife}/>
           <Route path = '/blog/deep-work' exact component = {DeepWork}/>
           <Route path = '/portfolio' exact component = {Portfolio}/>
           <Route path = '/about' exact component = {About}/>
+          <Route path = '/running' exact component = {RunningRevised}/>
         </Switch>
       </div>
     </Router>

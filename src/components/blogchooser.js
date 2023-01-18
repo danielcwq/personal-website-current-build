@@ -7,14 +7,14 @@ function blogChoice(){
     return (
     <div>
         <Navigation />
-        <div className = 'flex leading-relaxed'>
-            <div className = 'sm:px-2 md:px-12 lg:px-32'></div>
-            <div>
+        <div className = ''>
+            
+            <div class = ''>
             <div className = 'flex justify-center'>
-                <h1 className = 'text-2xl font-extrabold pt-24 py-10 px-4 md:px-4'> Revision Techniques - How to Ace Your Exams </h1>
+                <h1 className = 'text-2xl font-extrabold pt-24 mx-auto'> Revision Techniques - How to Ace Your Exams </h1>
             </div>
             
-                <h2 className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'> I’m a 17 year old high school student in Singapore, notorious for the emphasis placed on grades and academic success. This article discusses the ways to optimise your revision progress when you have set aside a period of time to revise. 
+                <h2 className = 'text-lg text-justify md:py-6 md:px-40'> I’m a 17 year old high school student in Singapore, notorious for the emphasis placed on grades and academic success. This article discusses the ways to optimise your revision progress when you have set aside a period of time to revise. 
                 </h2>
                 <h2 className = 'text-lg py-3 px-4 text-justify md:py-6 md:px-40'>
                 Living a balanced life while pursuing great academic grades is HARD. Often, students have to choose two of the following: sleep, a vibrant social life, and good grades. What I’m offering today is a way to optimise your revision techniques to: 

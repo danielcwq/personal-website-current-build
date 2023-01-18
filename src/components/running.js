@@ -54,6 +54,7 @@ function Running() {
             <div>
 
             </div>
+            
             <div className = "flex justify-center">
                 <h1 className = 'text-4xl p-24 font-bold font-dosis'>
                     Running as a student athlete
@@ -65,7 +66,7 @@ function Running() {
                     <Carousel/>
                 </div>
             </div>
-            
+             
             
             
             <div className = 'pb-12'>
