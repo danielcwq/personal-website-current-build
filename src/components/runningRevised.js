@@ -35,44 +35,56 @@ export default function RunningRevised() {
                             Feel free to reach out to my socials if you need any help with crafting your training plans. I'm always happy to help!
                         </p>
                         <br/>
-                        <div class="grid grid-rows-2">
-                            <a href = 'https://betterhumans.pub/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c' target = '_blank' class= 'font-bold mx-auto rounded-xl md:mt-12 p-2 hover:bg-gray-400 text-center'>
-                                How to get good at 2.4 (article)
-                            </a>
-                            <a class ="rounded-xl mx-auto md:mt-12 p-2 hover:bg-gray-400 text-center" href="https://twitter.com/danielchingwq/status/1615374111412486147" target ='_blank'>
-                            why relying too much on watch-based fitness metrics might be a bad thing (thread)
-                            </a>
+                        <div class = "grid grid-cols-2 grid-rows-1"> 
+                                <div class = ''>
+                                    <h1 class= 'text-2xl'>Personal Records</h1>
+                                    <p className = "">
+                                        400m - 56 seconds [2019]
+                                    </p>
+                                    <p className = "">
+                                        800m - 2 minutes 12 seconds [2019]
+                                    </p>
+                                    <p >
+                                        1000m - 3 minutes (flat) [2019]
+                                    </p>
+                                    <p >
+                                        1500m - 5 minutes (flat) [2019]
+                                    </p>
+                                    <p >
+                                        2400m - 8 minutes 38 seconds [2019]
+                                    </p>
+                                    <p >
+                                        5000m - 19 minutes 42 seconds [2021]
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className = 'text-2xl '> Strava: </p>
+                                    <a href = 'https://www.strava.com/athletes/49373732' class = 'button' target = "_blank">
+                                        <img src = './strava.png' alt = 'strava'/>
+                                    </a>
+                                </div>
+                               
                         </div>
                         
                     </div>
                 </div>
                 <div class = "md:max-w-xl mx-auto text-center">
-                    <h1 class= 'text-2xl'>Personal Records</h1>
-                    <div class = 'pt-10'>
-                        <p className = "">
-                            400m - 56 seconds [2019]
-                        </p>
-                        <p className = "">
-                            800m - 2 minutes 12 seconds [2019]
-                        </p>
-                        <p >
-                            1000m - 3 minutes (flat) [2019]
-                        </p>
-                        <p >
-                            1500m - 5 minutes (flat) [2019]
-                        </p>
-                        <p >
-                            2400m - 8 minutes 38 seconds [2019]
-                        </p>
-                        <p >
-                            5000m - 19 minutes 42 seconds [2021]
-                        </p>
+                    <h1 class='text-2xl text-center'>Resources</h1>
+                    <div class="grid grid-rows-2">
+                                <a href = 'https://betterhumans.pub/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c' target = '_blank' class= 'font-bold mx-auto rounded-xl md:mt-12 p-2 hover:bg-gray-400 text-center'>
+                                    How to get good at 2.4 (article)
+                                </a>
+                                <a class ="rounded-xl mx-auto md:mt-6 p-2 hover:bg-gray-400 text-center" href="https://twitter.com/danielchingwq/status/1615374111412486147" target ='_blank'>
+                                why relying too much on watch-based fitness metrics might be a bad thing (thread)
+                                </a>
                     </div>
-                    <div className = "flex justify-center mt-10">
-                        <p className = 'text-2xl mr-4 mt-2'> Follow me on Strava: </p>
-                        <a href = 'https://www.strava.com/athletes/49373732' class = 'button' target = "_blank">
-                            <img src = './strava.png' alt = 'strava'/>
-                        </a>
+                    <div class = 'invisible md:visible'>
+                        <h2 class = ' text-2xl mt-10'>What I'm doing now</h2>
+                        <ul class = 'list-disc mt-5'>
+                            <li>Utilising NLP to process athlete's comments post-workout, assigning true RPE values</li>
+                            <li>Experimenting with HRV4Training, an app that measures heart rate variability to give training insights</li>
+                            <li>Coaching 5+ mentees for IPPT</li>
+                        </ul>
                     </div>
                 </div>
                 
