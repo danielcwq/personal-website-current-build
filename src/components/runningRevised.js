@@ -6,7 +6,7 @@ export default function RunningRevised() {
         <div class = "font-dosis">
             <Navigation/>
             <h1 class="text-5xl flex justify-center md:pt-20 font-bold">Running</h1>
-            <div class = "grid grid-rows-1 grid-cols-2">
+            <div class = "md:grid-rows-1 grid-cols-2">
                 <div>
                     <div className = "">
                                 <div className = "md:max-w-xl mx-auto text-2xl text-center">
