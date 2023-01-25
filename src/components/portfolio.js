@@ -64,6 +64,30 @@ function Portfolio(){
             </div>
             <div className = 'grid grid-cols-1 md:grid-cols-2 gap-2 md:flex-row justify-between font-dosis mx-2 md:mx-4' style = {{minHeight: "50vh"}} >
                 <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 '>
+                        
+                        <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                            <img src='./HFhead.jpeg'/>
+                            <div className = "text-2xl font-semibold my-5 text-center ">
+                                Running Shoe Classifier
+                            </div>
+                            <div className = 'text-xl text-justify my-4'>
+                            I built my first ML webapp with HuggingFace Spaces and the fast.ai library in PyTorch, to categorise running shoes based on images.  
+                            </div>
+                            <div className = 'text-xl text-justify my-4'>
+                            As a volunteer coach, I constantly get questions as to which exact model of shoes to buy - this is a little tool to help budding runners make an informed decision!
+                            </div>
+                           
+                            <div className = 'flex flex-row justify-around mt-4'>
+                                <a href = 'https://huggingface.co/spaces/danielcwq/running-shoe-classifier/'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Website</b>
+                                </a>
+                                <a href = 'https://www.kaggle.com/code/danielcwq/running-shoe-classifier/' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Model Code</b>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 '>
                     
                     <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
                         <img src='./chestxr.png'/>
