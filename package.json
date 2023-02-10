@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    
-    
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -13,6 +11,7 @@
     "react-alice-carousel": "^2.5.1",
     "react-dom": "^16.14.0",
     "react-ga": "^3.3.0",
+    "react-ga4": "^2.0.0",
     "react-icons": "^4.3.1",
     "react-meta-tags": "^1.0.1",
     "react-reveal": "^1.2.2",
