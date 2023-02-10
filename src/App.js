@@ -17,11 +17,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './components/about';
 import RunningRevised from './components/runningRevised';
 import NavigationHome from './components/NavigationHome';
-import ReactGa from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize('G-Y53GCEEX9N');
+    ReactGA.initialize('G-Y53GCEEX9N');
     // To Report Page View 
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, [])
