@@ -54,8 +54,11 @@ function Portfolio(){
                 </div> 
             </div>
             <div className = 'flex justify-center'>
-                <a href = "https://www.kaggle.com/danielcwq" className = 'mt-8 p-6 flex justify-center text-center font-dosis md:rounded-xl bg-gray-300 hover:bg-gray-500 text-2xl'>
+                <a href = "https://www.kaggle.com/danielcwq" className = 'm-8 p-6 flex justify-center text-center font-dosis md:rounded-xl bg-gray-300 hover:bg-gray-500 text-2xl'>
                     Kaggle Profile
+                </a>
+                <a href = "https://huggingface.co/danielcwq" className = 'm-8 p-6 flex justify-center text-center font-dosis md:rounded-xl bg-gray-300 hover:bg-gray-500 text-2xl'>
+                    HuggingFace Profile
                 </a>
             </div>
             
