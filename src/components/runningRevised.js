@@ -77,6 +77,9 @@ export default function RunningRevised() {
                                 <a class ="rounded-xl mx-auto md:mt-6 p-2 hover:bg-gray-400 text-center" href="https://twitter.com/danielchingwq/status/1615374111412486147" target ='_blank'>
                                 why relying too much on watch-based fitness metrics might be a bad thing (thread)
                                 </a>
+                                <a class ="font-bold mx-auto rounded-xl md:p-2 hover:bg-gray-400 text-center" href="https://betterhumans.pub/preventing-overtraining-achieving-sustainable-growth-c47fcc6c2d7f" target ='_blank'>
+                                Preventing overtraining for beginner runners (article)
+                                </a>
                     </div>
                     <div class = 'invisible md:visible'>
                         <h2 class = ' text-2xl mt-10'>What I'm doing now</h2>
@@ -84,6 +87,7 @@ export default function RunningRevised() {
                             <li>Utilising NLP to process athlete's comments post-workout, assigning true RPE values</li>
                             <li>Experimenting with HRV4Training, an app that measures heart rate variability to give training insights</li>
                             <li>Coaching 5+ mentees for IPPT</li>
+                            
                         </ul>
                     </div>
                 </div>
