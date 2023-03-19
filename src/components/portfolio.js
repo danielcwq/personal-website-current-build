@@ -71,18 +71,24 @@ function Portfolio(){
                         <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
                             <img src='./chathumans.png'/>
                             <div className = "text-2xl font-semibold my-5 text-center ">
-                                Chat Your Humanities
+                                Chat Your Data
                             </div>
                             <div className = 'text-xl text-justify my-4'>
                             I built my first LLM webapp with HuggingFace Spaces and the LangChain library.  
                             </div>
                             <div className = 'text-xl text-justify my-4'>
-                            I finetuned OpenAI's GPT-3 on a corpus of subject-specific notes for the A-Level syllabus in Singapore, building a Question and Answer bot that gives output based on the notes. 
+                            I used OpenAI's gpt-3.5-turbo API on a corpus of subject-specific notes for the A-Level syllabus in Singapore, building a Question and Answer bot that gives output based on the notes. 
                             </div>
                            
-                            <div className = 'flex flex-row justify-around mt-4'>
+                            <div className = 'flex justify-around mt-4'>
                                 <a href = 'https://huggingface.co/spaces/danielcwq/chat-your-humanities'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
-                                    <b>Website</b>
+                                    <b>Chat-Your-Humanities!</b>
+                                </a>
+                                <a href = 'https://huggingface.co/spaces/danielcwq/chat-your-case'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Chat-Your-Case</b>
+                                </a>
+                                <a href = 'https://huggingface.co/spaces/danielcwq/chat-your-data-trial' class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Chat-Your-Economics</b>
                                 </a>
                                 <a href = 'https://huggingface.co/spaces/danielcwq/chat-your-humanities/tree/main' className = 'rounded-lg bg-white text-black p-2' target = '_blank'>
                                     <b>Model Code</b>
