@@ -66,6 +66,32 @@ function Portfolio(){
                 <h1 className = 'text-3xl pt-10 md:pt-16 font-bold pl-10 text-justify font-dosis'> Projects </h1>
             </div>
             <div className = 'grid grid-cols-1 md:grid-cols-2 gap-2 md:flex-row justify-between font-dosis mx-2 md:mx-4' style = {{minHeight: "50vh"}} >
+            <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-green-700 '>
+                        
+                        <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>
+                            <img class = 'ml-4 lg:ml-32' src='./emoji-running-man.gif'/>
+                            <div className = "text-2xl font-semibold my-5 text-center ">
+                                IPPT 2.4km Calculator + Training Plan
+                                <br/>
+                                <a className = "text-lg " href = "https://mokyingren.sg/">with Mok Ying Ren</a>
+                            </div>
+                           
+                            
+                            <div className = 'text-xl text-justify my-4'>
+                            We built a webapp that calculates split times during your 2.4km IPPT Run! There's also a training plan (60 minutes per week only) that you can follow to improve your run time.
+                            </div>
+                           
+                            <div className = 'flex justify-around mt-4'>
+                                <a href = 'https://ippttraining-danielcwq.vercel.app/'class = 'rounded-lg bg-white text-black p-2' target = '_blank'>
+                                    <b>Website</b>
+                                </a>
+                                <a href ="https://www.loom.com/share/661feaf94ccc4a70affbf7f18948586b" class = " rounded-lg bg-white text-black p-2" target = "_blank">
+                                    <b>Website Walkthrough</b>
+                                </a>
+                                
+                            </div>
+                        </div>
+                </div>
             <div className = 'w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-blue-700 '>
                         
                         <div className = 'm-8 p-6 md:rounded-xl text-white font-dosis'>

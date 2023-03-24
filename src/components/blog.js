@@ -75,6 +75,35 @@ function Blog(){
                         </div>
                     </a>
                 </div>
+                <div>    
+                    <a className = '' href = 'https://danielching.substack.com/p/february-newsletter-staying-on-track' target = '_blank'>
+                        <div className = 'flex flex-col flex-grow-0 font-dosis w-3/5 md:rounded-xl mt-10 p-4 ml-24 bg-gray-200 hover:bg-gray-400'>
+                            <div className = 'flex justify-center items-center'>
+                                <div className = 'font-semibold text-lg'>February </div>
+                                <div className = 'hidden md:block pl-4'>March 4 2022</div>
+                            </div>  
+                        </div>
+                    </a>
+                </div>
+                <div>    
+                    <a className = '' href = 'https://danielching.substack.com/p/march-and-april-newsletter' target = '_blank'>
+                        <div className = 'flex flex-col flex-grow-0 font-dosis w-3/5 md:rounded-xl mt-10 p-4 ml-24 bg-gray-200 hover:bg-gray-400'>
+                            <div className = 'flex justify-center items-center'>
+                                <div className = 'font-semibold text-lg'>March and April </div>
+                                <div className = 'hidden md:block pl-4'>May 12 2022</div>
+                            </div>  
+                        </div>
+                    </a>
+                </div>
+                <div>    
+                    <a className = '' href = 'https://danielching.substack.com/p/2022-wrapped' target = '_blank'>
+                        <div className = 'flex flex-col flex-grow-0 font-dosis w-3/5 md:rounded-xl mt-10 p-4 ml-24 bg-gray-200 hover:bg-gray-400'>
+                            <div className = 'flex justify-center items-center'>
+                                <div className = 'font-semibold text-lg'>2022 Wrapped</div>
+                            </div>  
+                        </div>
+                    </a>
+                </div>
                     
             </div>
             <div className = 'flex flex-col md:flex-row justify-between'>
@@ -141,17 +170,26 @@ function Blog(){
                     <div className = 'flex justify-center '>
                         <h1 className = 'text-2xl md:pt-12 italic text-justify'> Personal Pieces </h1>
                     </div>
-                    <a className = '' href = 'https://medium.com/p/d48eb9ef54a0' target = '_blank'>
+                    <a className = '' href = 'https://danielching.notion.site/On-faith-as-a-JC-student-425147eec72748d280659972b7429219' target = '_blank'>
                         <div className = 'flex justify-center flex-col w-3/5 md:w-4/5 rounded-xl mx-auto p-4 bg-gray-200 hover:bg-gray-400'>
+                            <div className = 'flex justify-center items-center'>
+                                <div className = 'font-semibold text-lg'>On Faith as a JC Student</div>
+                                <div className = 'hidden md:block pl-4'>Last updated: March 9, 2023</div>
+                            </div>
+                            <div className = 'pt-4 md:pt-6'>
+                                <p>My thoughts on my Christian faith, in Junior College. (HS Junior/ Senior)</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a className = '' href = 'https://medium.com/p/d48eb9ef54a0' target = '_blank'>
+                        <div className = 'flex justify-center flex-col w-3/5 md:w-4/5 rounded-xl mx-auto p-4 bg-gray-200 hover:bg-gray-400 mt-4'>
                             <div className = 'flex justify-center items-center'>
                                 <div className = 'font-semibold text-lg'>Surviving JC: Mindsets to Tide You Through</div>
                                 <div className = 'hidden md:block pl-4'>January 19 2023</div>
                             </div>
                             <div className = 'pt-4 md:pt-6'>
                                 <p>Three principles to help anyone get through JC: practice intentionality, have perspective and find a deep community to stay grounded. </p>
-                                
                             </div>
-                                
                         </div>
                     </a>
                     <a className = '' href = 'https://danielching.medium.com/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c' target = '_blank'>
@@ -205,20 +243,20 @@ function Blog(){
                     <Link className = 'flex justify-center' to = '/blog/the-deep-life'>
                         <div className = 'flex justify-center flex-col w-3/5 md:w-4/5 rounded-xl mx-auto p-4 bg-gray-200 hover:bg-gray-400 mt-4'>
                             <div className = 'font-semibold'>Living the Deep Life as a Student in Singapore  </div>
-                            <div className = 'hidden md:block pl-24'> October 6 2021 </div>
+                            <div className = 'hidden md:block'> October 6 2021 </div>
                         </div>
                         
                     </Link>
                     <Link className = 'flex justify-center' to ='/blog/revision-techniques'>
                         <div className = 'flex justify-center flex-col w-3/5 md:w-4/5 rounded-xl mx-auto p-4 bg-gray-200 hover:bg-gray-400 mt-4'>
                             <div className = 'font-semibold'>{content.blog1.title}</div>
-                            <div className = 'hidden md:block pl-24'> July 5 2021 </div>
+                            <div className = 'hidden md:block'> July 5 2021 </div>
                         </div>  
                     </Link>
                     <Link className = 'flex justify-center' to ='/blog/perspectives'>
                         <div className = 'flex justify-center flex-col w-3/5 md:w-4/5 rounded-xl mx-auto p-4 bg-gray-200 hover:bg-gray-400 mt-4'>
                             <div className = 'font-semibold'>{content.blog3.title}</div>
-                            <div className = 'hidden md:block pl-12'> Aug 2 2021 </div>
+                            <div className = 'hidden md:block'> Aug 2 2021 </div>
                         </div>  
 
                     </Link>
