@@ -97,6 +97,46 @@ function Portfolio() {
       >
         <div className="w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-green-700 ">
           <div className="m-8 p-6 md:rounded-xl text-white font-dosis">
+            <div className="flex justify-center">
+              <iframe
+                class="md:rounded-lg"
+                src="https://www.loom.com/embed/c479c346de624fb98220169aa8848661?sid=a2a1868b-690b-4e24-a695-0bf8a30a0ee0"
+              />
+            </div>
+
+            <div className="text-2xl font-semibold my-5 text-center ">
+              DataScienceSingapore (DSSG) Langchain Sharing
+              <br />
+            </div>
+
+            <div className="text-xl text-justify my-4">
+              This was a sharing where I was invited by DSSG to share about
+              Managing UX / Product in Langchain applications. Find the deck and
+              recorded video here!
+            </div>
+
+            <div className="flex justify-around mt-4">
+              <a
+                href="https://www.loom.com/share/c479c346de624fb98220169aa8848661?sid=5d596448-6da6-4704-9b4e-1bbfee207289"
+                class="rounded-lg bg-white text-black p-2"
+                target="_blank"
+              >
+                <b>Video</b>
+              </a>
+            </div>
+            <div className="flex justify-around mt-4">
+              <a
+                href="https://drive.google.com/drive/folders/1p_c-bcp9ItQYrc0XDtrVP0zoJ1jskZBH?usp=sharing"
+                class="rounded-lg bg-white text-black p-2"
+                target="_blank"
+              >
+                <b>Deck</b>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="w-4/5 mx-auto rounded-xl md:rounded-lg bg-indigo-900 hover:bg-green-700 ">
+          <div className="m-8 p-6 md:rounded-xl text-white font-dosis">
             <img class="md:rounded-lg" src="./ipptruncalc.png" />
             <div className="text-2xl font-semibold my-5 text-center ">
               All-in-One 2.4km IPPT Calculator
