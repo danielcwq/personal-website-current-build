@@ -222,20 +222,6 @@ function Portfolio() {
 
             <div className="flex justify-around mt-4">
               <a
-                href="https://huggingface.co/spaces/danielcwq/chat-your-humanities"
-                class="rounded-lg bg-white text-black p-2"
-                target="_blank"
-              >
-                <b>Chat-Your-Humanities!</b>
-              </a>
-              <a
-                href="https://huggingface.co/spaces/danielcwq/chat-your-case"
-                class="rounded-lg bg-white text-black p-2"
-                target="_blank"
-              >
-                <b>Chat-Your-Case</b>
-              </a>
-              <a
                 href="https://huggingface.co/spaces/danielcwq/chat-your-data-trial"
                 class="rounded-lg bg-white text-black p-2"
                 target="_blank"
